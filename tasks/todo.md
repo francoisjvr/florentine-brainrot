@@ -43,7 +43,7 @@
 - [x] Add agent/admin burn state, events, admin setter, burn functions, and tests.
 - [x] Add artwork/metadata preview assets with Git LFS tracking.
 - [x] Add README and audit report.
-- [ ] Create GitHub repo, commit, push, and verify remote.
+- [x] Create GitHub repo, commit, push, and verify remote.
 
 ## Verification Matrix
 - [x] `npm install`
@@ -52,15 +52,15 @@
 - [x] Static/manual Solidity audit notes written.
 - [x] Dependency audit (`npm audit --audit-level=high`) reviewed.
 - [x] Secret scan / tracked sensitive-file check reviewed.
-- [ ] Git push preflight reviewed.
-- [ ] Remote repository read back through GitHub.
+- [x] Git push preflight reviewed.
+- [x] Remote repository read back through GitHub.
 
 ## Approval Checkpoint
 - Required? no — user explicitly requested new repo creation and push in this task.
 - Status: proceeding autonomously.
 
 ## Review
-- Summary: pending.
-- Evidence: pending.
-- Residual risks: pending.
-- Follow-ups: pending.
+- Summary: OpenSea SeaDrop-compatible Florentine Brainrot repo created, agent burn integrated, current artwork preview included, audit written, and GitHub push verified.
+- Evidence: `npm test` = 10 passing; `npm run compile` = success; production npm audit = 0 vulnerabilities; deployed bytecode = 12,066 bytes; secret scan = 0 findings; remote = `https://github.com/francoisjvr/florentine-brainrot`.
+- Residual risks: current repo includes the latest 24-piece preview artwork batch, not a generated full 1,401 production set; dev dependency audit still has Hardhat/toolbox transitive advisories that require breaking upgrades to clear.
+- Follow-ups: generate/add full 1,401 artwork/metadata, upload metadata/images to permanent storage, deploy contract, and configure SeaDrop/OpenSea public mint.
