@@ -52,7 +52,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #4",
@@ -61,8 +61,8 @@
       "period_looksmaxx_plaque": "BOTTICELLI VENUSMAXX MIRROR NOTE: let the codon stop signal prune the bad pose in the mirror the notary distrusts. Vasari calls it restraint, certified by the frame maker.",
       "qr_payload_if_drawn": null,
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #4 // BASE BOTTICELLI // MARKER GATTAAACTACCATATGTGAACTCCTAATT // SERIAL BOTT-4",
-        "SUPPLY 1401 // PALETTE blue screen reliquary // OUTER EDGE ASCII UNDERLAYER // CODEX RIZZ"
+        "FLORENTINE BRAINROT #4 // BOTTICELLI // GATTAAACTACCATATGTGAACTCCTAATT // BOTT-4",
+        "MINCHIATE 97×14+43 // SPERANZA // PAL blue screen reliquary // CODEX RIZZ"
       ],
       "tarocchi_card_body": "Speranza",
       "generated_insert_label": "a cherub holding a QR code like a cursed coupon",
@@ -97,6 +97,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Speranza",
+        "translations": {
+          "italian": "Speranza",
+          "english": "Hope",
+          "spanish": "Esperanza",
+          "french": "Espérance",
+          "german": "Hoffnung",
+          "portuguese": "Esperança",
+          "chinese_simplified": "希望"
+        },
         "category": "virtù",
         "motif": "hope",
         "roman": "XVI",
@@ -135,6 +144,371 @@
       "verdict": "Cosimo approves the lighting and ignores the crime",
       "reply": "guild whisper: the evidence is too specific to be holy"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Speranza",
+      "translations": {
+        "italian": "Speranza",
+        "english": "Hope",
+        "spanish": "Esperanza",
+        "french": "Espérance",
+        "german": "Hoffnung",
+        "portuguese": "Esperança",
+        "chinese_simplified": "希望"
+      },
+      "card_index_in_reference_deck_1_based": 17,
+      "allocation_position_0_based": 37,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        4,
+        101,
+        198,
+        295,
+        392,
+        489,
+        586,
+        683,
+        780,
+        877,
+        974,
+        1071,
+        1168,
+        1265,
+        1362
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0004/BOTTICELLI-SPERANZA",
+      "debit": "one flaming auction paddle shaped like a hardware wallet",
+      "credit": "a receipt folded into a reliquary window",
+      "witness": "Speranza",
+      "insert_evidence": "a cherub holding a QR code like a cursed coupon",
+      "notary_note": "The source relic, the card, and the caption all accuse the same room. The patron paid in aura, not florins.",
+      "balance": "642 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "GATTAAACTACCATATGTGAACTCCTAATT",
+      "visible_serial": "BOTT-4",
+      "triplets": [
+        "GAT",
+        "TAA",
+        "ACT",
+        "ACC",
+        "ATA",
+        "TGT",
+        "GAA",
+        "CTC",
+        "CTA",
+        "ATT"
+      ],
+      "amino_acid_trace": [
+        "D",
+        "O",
+        "T",
+        "T",
+        "I",
+        "C",
+        "E",
+        "L",
+        "L",
+        "I"
+      ],
+      "father_strand": {
+        "name": "BOTTICELLI-PATER",
+        "dna": "GATTCAACTCCCATATGTGAACTCCTAATT",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "BLUESCREENRE-MATER",
+        "dna": "CTAATTTGATGGTATACACTTGAGGATTAA",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "GACTAAACTACCTTATGTGAACTCAGAATT"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "CTAATATGATGGTAGATACTTGCGGATTAA"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "GAGTCAACACCCATATGTGAACTCCTAGTT"
+        }
+      ],
+      "children": [
+        {
+          "name": "BOTT-4-FIGLIO-A",
+          "dna": "GATTAAACTACCATAACACTTGAGGATTAA",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "BOTT-4-FIGLIO-B",
+          "dna": "GATTCAACTCCCATATGTGAACTCCTAATT",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Botticelli",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "BOTTICELLI SPERANZA",
+      "lines": [
+        "Botticelli pretends to be decoration but behaves like testimony.",
+        "Oracle pretends to be decoration but behaves like testimony.",
+        "Tarocchi pretends to be decoration but behaves like testimony.",
+        "Tarocchi keeps the medici receipt drama from looking innocent.",
+        "Ink left a checksum where a halo should be.",
+        "Cosimo points from Cosimo's private library shelfmark to a CAPTCHA grid asking which saints are traffic lights.",
+        "Evidence was copied into the margin before the patron noticed.",
+        "Laurenziana points from Cosimo's private library shelfmark to a CAPTCHA grid asking which saints are traffic lights.",
+        "Laurenziana was copied into the margin before the patron noticed.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "//",
+        "Scribe keeps the medici receipt drama from looking innocent.",
+        "Patron left a checksum where a halo should be.",
+        "Evidence keeps the medici receipt drama from looking innocent.",
+        "Receipt left a checksum where a halo should be.",
+        "Archive was copied into the margin before the patron noticed.",
+        "Notary points from Cosimo's private library shelfmark to a CAPTCHA grid asking which saints are traffic lights.",
+        "Zodiac smells faintly of candle smoke and server dust.",
+        "Archive pretends to be decoration but behaves like testimony."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Botticelli anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Speranza decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a CAPTCHA grid asking which saints are traffic lights leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Cursed Auction House UI slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Speranza",
+        "translations": {
+          "italian": "Speranza",
+          "english": "Hope",
+          "spanish": "Esperanza",
+          "french": "Espérance",
+          "german": "Hoffnung",
+          "portuguese": "Esperança",
+          "chinese_simplified": "希望"
+        }
+      },
+      "shadow_card": {
+        "italian": "Otto di Coppe",
+        "translations": {
+          "italian": "Otto di Coppe",
+          "english": "Eight of Cups",
+          "spanish": "Ocho de Copas",
+          "french": "Huit de Coupes",
+          "german": "Acht der Kelche",
+          "portuguese": "Oito de Copas",
+          "chinese_simplified": "圣杯八"
+        }
+      },
+      "remedy_card": {
+        "italian": "Sette di Bastoni",
+        "translations": {
+          "italian": "Sette di Bastoni",
+          "english": "Seven of Batons",
+          "spanish": "Siete de Bastos",
+          "french": "Sept de Bâtons",
+          "german": "Sieben der Stäbe",
+          "portuguese": "Sete de Paus",
+          "chinese_simplified": "权杖七"
+        }
+      },
+      "reading": "Speranza names Botticelli as the witness; Otto di Coppe shows where the scandal hides; Sette di Bastoni is the exit route after a CAPTCHA grid asking which saints are traffic lights starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.5.29-BRAINROT-0004",
+      "catalogue_title": "Botticelli under Speranza",
+      "condition": "water damage, meme residue, suspicious cyan pigment",
+      "marginal_warning": "Do not let the QR code face the moon.",
+      "palette_binding": "blue screen reliquary"
+    },
+    "qr_plaintext_archive": {
+      "drawn": false,
+      "absence_note": "No QR appeared on this token. Speranza refused to scan and left the witness work to the margins."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "not drawn on even-numbered tokens"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            1126,
+            2000,
+            2901,
+            2263
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            147,
+            2369,
+            1922,
+            2857
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Do not let the codon marker breed near the provenance strip.",
+      "Do not cite the notary after midnight.",
+      "This file has already been read by one Medici accountant.",
+      "If the Tarocchi card and QR code disagree, trust the card.",
+      "If the ledger balances, something has gone terribly wrong."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "rizz": "charisma or persuasive charm; patronage influence rephrased as social magic"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        4,
+        101,
+        198,
+        295,
+        392,
+        489,
+        586,
+        683,
+        780,
+        877,
+        974,
+        1071,
+        1168,
+        1265,
+        1362
+      ],
+      "nearby_same_card": [
+        101,
+        198
+      ],
+      "previous_token": 3,
+      "next_token": 5,
+      "mirror_token": 1398,
+      "same_set_pass_neighbors": [
+        41,
+        101
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "In codice occulto, debitum vivit.",
+      "rough_translation": "In the hidden codex, the debt lives.",
+      "token_gloss": "Bad monastery Latin for Botticelli under Speranza; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi speranza --base botticelli --token 0004",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Speranza",
+        "base decoded from codons: Botticelli",
+        "case file: MEDICI RECEIPT DRAMA",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 4,
       "source_panel_index": 4,
@@ -147,6 +521,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "91bd36545942e9a6675cd49f9bc309e067fb90d3efb7967a2d4fc8e21deac200",
+      "metadata_without_provenance_hashes_sha256": "b59fe266f1c4cd4acc15e082e1f76b1210c50a1a4061f5ce36ffd8c935a53b4a",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

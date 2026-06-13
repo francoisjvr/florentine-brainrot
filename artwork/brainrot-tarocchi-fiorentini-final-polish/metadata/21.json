@@ -56,7 +56,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #21",
@@ -65,8 +65,8 @@
       "period_looksmaxx_plaque": "MONA LISA SFUMATOMAXX MIRROR NOTE: pinch cheeks with a reliquary key during an Alberti wheel face-reading. The fresco slaps without consent, certified by the frame maker.",
       "qr_payload_if_drawn": "AURA RECEIPT #21: the source relic, the card, and the caption all accuse the same room. Keep the copy.",
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #21 // BASE MONALISA // MARKER ATGTAAAACGCTCTCATATCTGCC // SERIAL MONA-21",
-        "SUPPLY 1401 // PALETTE vapor pope // OUTER EDGE ASCII UNDERLAYER // GOATED CHAPEL RUN"
+        "FLORENTINE BRAINROT #21 // MONALISA // ATGTAAAACGCTCTCATATCTGCC // MONA-21",
+        "MINCHIATE 97×14+43 // AMORE // PAL vapor pope // GOATED CHAPEL RUN"
       ],
       "tarocchi_card_body": "Amore",
       "generated_insert_label": "a low-res dove dropping governance ballots",
@@ -101,6 +101,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Amore",
+        "translations": {
+          "italian": "Amore",
+          "english": "Love",
+          "spanish": "Amor",
+          "french": "Amour",
+          "german": "Liebe",
+          "portuguese": "Amor",
+          "chinese_simplified": "爱"
+        },
         "category": "trionfo",
         "motif": "love",
         "roman": "V",
@@ -147,6 +156,366 @@
       "verdict": "Cosimo approves the lighting and ignores the crime",
       "reply": "margin reply: same case, different halo"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Amore",
+      "translations": {
+        "italian": "Amore",
+        "english": "Love",
+        "spanish": "Amor",
+        "french": "Amour",
+        "german": "Liebe",
+        "portuguese": "Amor",
+        "chinese_simplified": "爱"
+      },
+      "card_index_in_reference_deck_1_based": 6,
+      "allocation_position_0_based": 84,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        21,
+        118,
+        215,
+        312,
+        409,
+        506,
+        603,
+        700,
+        797,
+        894,
+        991,
+        1088,
+        1185,
+        1282,
+        1379
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0021/MONALISA-AMORE",
+      "debit": "a velvet bag of florins marked DO NOT AUDIT",
+      "credit": "a receipt folded into a reliquary window",
+      "witness": "Amore",
+      "insert_evidence": "a low-res dove dropping governance ballots",
+      "notary_note": "The source relic, the card, and the caption all accuse the same room. The patron paid in aura, not florins.",
+      "balance": "504 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "ATGTAAAACGCTCTCATATCTGCC",
+      "visible_serial": "MONA-21",
+      "triplets": [
+        "ATG",
+        "TAA",
+        "AAC",
+        "GCT",
+        "CTC",
+        "ATA",
+        "TCT",
+        "GCC"
+      ],
+      "amino_acid_trace": [
+        "M",
+        "O",
+        "N",
+        "A",
+        "L",
+        "I",
+        "S",
+        "A"
+      ],
+      "father_strand": {
+        "name": "MONALISA-PATER",
+        "dna": "ATGTAAGACGCTCTCATATCTACC",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "VAPORPOPE-MATER",
+        "dna": "TACATTTTGCGAGAGTATAGACGG",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "ATGTATAGCGATCTCATTTCTGCC"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "TACCTGTTGCGAGAGCAAAGACGG"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "ATGTAAGACGGTCTCGTATCTACC"
+        }
+      ],
+      "children": [
+        {
+          "name": "MONA-21-FIGLIO-A",
+          "dna": "ATGTAAAACGCTGAGTATAGACGG",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "MONA-21-FIGLIO-B",
+          "dna": "ATGTAAGACGCTCTCATATCTGCC",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Mona Lisa",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "MONALISA AMORE",
+      "lines": [
+        "Medici left a checksum where a halo should be.",
+        "Oracle smells faintly of candle smoke and server dust.",
+        "Notary points from a wool-guild oath ledger with patron fingerprints to a codon decoder sticker on a cold wallet.",
+        "Archive smells faintly of candle smoke and server dust.",
+        "Laurenziana points from a wool-guild oath ledger with patron fingerprints to a codon decoder sticker on a cold wallet.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "Scribe left a checksum where a halo should be.",
+        "Archive was copied into the margin before the patron noticed.",
+        "//",
+        "Archive pretends to be decoration but behaves like testimony.",
+        "Medici was copied into the margin before the patron noticed.",
+        "Oracle was copied into the margin before the patron noticed.",
+        "Receipt keeps the medici receipt drama from looking innocent.",
+        "Evidence pretends to be decoration but behaves like testimony."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Mona Lisa anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Amore decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a codon decoder sticker on a cold wallet leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Vaporwave Medici Mall slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Amore",
+        "translations": {
+          "italian": "Amore",
+          "english": "Love",
+          "spanish": "Amor",
+          "french": "Amour",
+          "german": "Liebe",
+          "portuguese": "Amor",
+          "chinese_simplified": "爱"
+        }
+      },
+      "shadow_card": {
+        "italian": "Fante di Bastoni",
+        "translations": {
+          "italian": "Fante di Bastoni",
+          "english": "Page of Batons",
+          "spanish": "Sota de Bastos",
+          "french": "Valet de Bâtons",
+          "german": "Bube der Stäbe",
+          "portuguese": "Valete de Paus",
+          "chinese_simplified": "权杖侍从"
+        }
+      },
+      "remedy_card": {
+        "italian": "Toro",
+        "translations": {
+          "italian": "Toro",
+          "english": "Taurus",
+          "spanish": "Tauro",
+          "french": "Taureau",
+          "german": "Stier",
+          "portuguese": "Touro",
+          "chinese_simplified": "金牛座"
+        }
+      },
+      "reading": "Amore names Mona Lisa as the witness; Fante di Bastoni shows where the scandal hides; Toro is the exit route after a codon decoder sticker on a cold wallet starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.22.51-BRAINROT-0021",
+      "catalogue_title": "Monalisa under Amore",
+      "condition": "vellum curl, server-room ozone, patron fingerprints",
+      "marginal_warning": "If the card disagrees with the ledger, trust the card.",
+      "palette_binding": "vapor pope"
+    },
+    "qr_plaintext_archive": {
+      "drawn": true,
+      "payload": "AURA RECEIPT #21: the source relic, the card, and the caption all accuse the same room. Keep the copy.",
+      "decoded_by": "archive clerk with a suspiciously modern phone",
+      "interpretation": "The QR is not a link. It is Amore turning Mona Lisa into a witness statement."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "scannable plaintext QR oracle"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            870,
+            2079,
+            2864,
+            2331
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            171,
+            2454,
+            2287,
+            2898
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "If the Tarocchi card and QR code disagree, trust the card.",
+      "Do not let the codon marker breed near the provenance strip.",
+      "The archive denies all aura liability.",
+      "Amore is a witness, not a decorative rectangle.",
+      "Do not cite the notary after midnight."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "aura": "status, presence, or holy-looking social charge; Renaissance clout converted into meme units",
+      "goated": "treated as the greatest of all time, sometimes for stupid reasons",
+      "opp": "opponent or enemy; in this world a rival guild, collector, or saintly antagonist"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        21,
+        118,
+        215,
+        312,
+        409,
+        506,
+        603,
+        700,
+        797,
+        894,
+        991,
+        1088,
+        1185,
+        1282,
+        1379
+      ],
+      "nearby_same_card": [
+        118,
+        215
+      ],
+      "previous_token": 20,
+      "next_token": 22,
+      "mirror_token": 1381,
+      "same_set_pass_neighbors": [
+        58,
+        118
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Sanctus rumor in tabula latet.",
+      "rough_translation": "A holy rumor hides in the panel.",
+      "token_gloss": "Bad monastery Latin for Mona Lisa under Amore; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi amore --base monalisa --token 0021",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Amore",
+        "base decoded from codons: Mona Lisa",
+        "case file: MEDICI RECEIPT DRAMA",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 21,
       "source_panel_index": 3,
@@ -159,6 +528,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "90cc2a5552b9cfdffff5a8fa907951508c2ba56d14cd645a0780431f75c21b6c",
+      "metadata_without_provenance_hashes_sha256": "9bcaca2ca65c8e5e3f38df05b2cd81f7226381dd5b6dacaed7ecf2f48ab41a04",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

@@ -56,7 +56,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #15",
@@ -65,8 +65,8 @@
       "period_looksmaxx_plaque": "DAVINCI NOTEBOOKMAXX MIRROR NOTE: sleep on a profile sketch before the notary removes empty values. Fanum tax exempts the cheekbones, approved by the jealous cousin.",
       "qr_payload_if_drawn": "QR WITNESS #15: Sei di Spade names DaVinci; the caption has to tell the truth because the plaque cannot fit all.",
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #15 // BASE DAVINCI // MARKER GATGCTGTAATAAACTGTATT // SERIAL DAVI-15",
-        "SUPPLY 1401 // PALETTE blue screen reliquary // OUTER EDGE ASCII UNDERLAYER // TRIPLET WITNESS"
+        "FLORENTINE BRAINROT #15 // DAVINCI // GATGCTGTAATAAACTGTATT // DAVI-15",
+        "MINCHIATE 97×14+43 // SEI DI SPADE // PAL blue screen reliquary // TRIPLET WITNESS"
       ],
       "tarocchi_card_body": "Sei di Spade",
       "generated_insert_label": "a fake papal bull written as a Discord moderation warning",
@@ -101,6 +101,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Sei di Spade",
+        "translations": {
+          "italian": "Sei di Spade",
+          "english": "Six of Swords",
+          "spanish": "Seis de Espadas",
+          "french": "Six de Épées",
+          "german": "Sechs der Schwerter",
+          "portuguese": "Seis de Espadas",
+          "chinese_simplified": "宝剑六"
+        },
         "category": "seme",
         "motif": "sword_pip",
         "roman": null,
@@ -122,6 +131,10 @@
       "read_between_the_lines": "The Sei di Spade card is not decorative; it is the witness that tells you how to read the room. DaVinci's codon strip repeats like a clerk trying not to laugh. The caption has to tell the truth because the plaque cannot fit all the gossip. The slang is a translation layer: sacred authority becomes aura, patronage becomes Fanum-tax economics, and marginalia becomes groupchat evidence.",
       "slang_for_normal_plebs": [
         {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        },
+        {
           "term": "fanum tax",
           "translation_for_normal_plebs": "someone taking a cut; mapped to patronage fees, guild dues, and marketplace rake"
         },
@@ -139,6 +152,367 @@
       "verdict": "the caption has to tell the truth because the plaque cannot fit all the gossip",
       "reply": "patron chat: nobody admit the receipt matches"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Sei di Spade",
+      "translations": {
+        "italian": "Sei di Spade",
+        "english": "Six of Swords",
+        "spanish": "Seis de Espadas",
+        "french": "Six de Épées",
+        "german": "Sechs der Schwerter",
+        "portuguese": "Seis de Espadas",
+        "chinese_simplified": "宝剑六"
+      },
+      "card_index_in_reference_deck_1_based": 75,
+      "allocation_position_0_based": 56,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        15,
+        112,
+        209,
+        306,
+        403,
+        500,
+        597,
+        694,
+        791,
+        888,
+        985,
+        1082,
+        1179,
+        1276,
+        1373
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0015/DAVINCI-SEIDISPADE",
+      "debit": "one flaming auction paddle shaped like a hardware wallet",
+      "credit": "seven fragments of marketplace aura",
+      "witness": "Sei di Spade",
+      "insert_evidence": "a fake papal bull written as a Discord moderation warning",
+      "notary_note": "DaVinci's codon strip repeats like a clerk trying not to laugh. The patron paid in aura, not florins.",
+      "balance": "372 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "GATGCTGTAATAAACTGTATT",
+      "visible_serial": "DAVI-15",
+      "triplets": [
+        "GAT",
+        "GCT",
+        "GTA",
+        "ATA",
+        "AAC",
+        "TGT",
+        "ATT"
+      ],
+      "amino_acid_trace": [
+        "D",
+        "A",
+        "V",
+        "I",
+        "N",
+        "C",
+        "I"
+      ],
+      "father_strand": {
+        "name": "DAVINCI-PATER",
+        "dna": "GATACGGTAATAAACTGTATT",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "BLUESCREENRE-MATER",
+        "dna": "CTACGACATTATTTGACATAA",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "GGCGCTGTAATAAACTGTATT"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "CTACGACATTATCTCCCATTA"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "CCTACGGGAATAAACTGTATT"
+        }
+      ],
+      "children": [
+        {
+          "name": "DAVI-15-FIGLIO-A",
+          "dna": "GATGCTGTAAATTTGACATAA",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "DAVI-15-FIGLIO-B",
+          "dna": "GATACGGTAATAAACTGTATT",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "DaVinci",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "DAVINCI SEIDISPADE",
+      "lines": [
+        "Duomo keeps the patron groupchat leak from looking innocent.",
+        "Archive was copied into the margin before the patron noticed.",
+        "Vellum points from Ficino's no-cap translation draft to a provenance strip encoded as searchable DNA triplets.",
+        "Ink points from Ficino's no-cap translation draft to a provenance strip encoded as searchable DNA triplets.",
+        "Notary smells faintly of candle smoke and server dust.",
+        "Cosimo pretends to be decoration but behaves like testimony.",
+        "Ink keeps the patron groupchat leak from looking innocent.",
+        "//",
+        "Scribe left a checksum where a halo should be.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Ink left a checksum where a halo should be.",
+        "Duomo keeps the patron groupchat leak from looking innocent.",
+        "Ink was copied into the margin before the patron noticed.",
+        "Scribe left a checksum where a halo should be.",
+        "Patron keeps the patron groupchat leak from looking innocent.",
+        "Archive keeps the patron groupchat leak from looking innocent.",
+        "Duomo left a checksum where a halo should be.",
+        "Evidence smells faintly of candle smoke and server dust."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "DaVinci anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Sei di Spade decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a provenance strip encoded as searchable DNA triplets leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Synthwave Fresco Laundromat slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Sei di Spade",
+        "translations": {
+          "italian": "Sei di Spade",
+          "english": "Six of Swords",
+          "spanish": "Seis de Espadas",
+          "french": "Six de Épées",
+          "german": "Sechs der Schwerter",
+          "portuguese": "Seis de Espadas",
+          "chinese_simplified": "宝剑六"
+        }
+      },
+      "shadow_card": {
+        "italian": "La Luna",
+        "translations": {
+          "italian": "La Luna",
+          "english": "The Moon",
+          "spanish": "La Luna",
+          "french": "La Lune",
+          "german": "Der Mond",
+          "portuguese": "A Lua",
+          "chinese_simplified": "月亮"
+        }
+      },
+      "remedy_card": {
+        "italian": "Il Tempo",
+        "translations": {
+          "italian": "Il Tempo",
+          "english": "Time",
+          "spanish": "El Tiempo",
+          "french": "Le Temps",
+          "german": "Die Zeit",
+          "portuguese": "O Tempo",
+          "chinese_simplified": "时间"
+        }
+      },
+      "reading": "Sei di Spade names DaVinci as the witness; La Luna shows where the scandal hides; Il Tempo is the exit route after a provenance strip encoded as searchable DNA triplets starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.16.9-BRAINROT-0015",
+      "catalogue_title": "Davinci under Sei di Spade",
+      "condition": "wormholes in the margin, auction dust in the spine",
+      "marginal_warning": "Do not let the QR code face the moon.",
+      "palette_binding": "blue screen reliquary"
+    },
+    "qr_plaintext_archive": {
+      "drawn": true,
+      "payload": "QR WITNESS #15: Sei di Spade names DaVinci; the caption has to tell the truth because the plaque cannot fit all.",
+      "decoded_by": "archive clerk with a suspiciously modern phone",
+      "interpretation": "The QR is not a link. It is Sei di Spade turning DaVinci into a witness statement."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "scannable plaintext QR oracle"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            887,
+            2154,
+            2799,
+            2396
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            290,
+            2413,
+            2768,
+            2864
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Opening the metadata counts as participation in the trial.",
+      "Do not cite the notary after midnight.",
+      "The archive denies all aura liability.",
+      "This file has already been read by one Medici accountant.",
+      "If the ledger balances, something has gone terribly wrong."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "fanum tax": "someone taking a cut; mapped to patronage fees, guild dues, and marketplace rake",
+      "ratio": "publicly losing the argument by crowd reaction; old patronage drama as comment metrics"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        15,
+        112,
+        209,
+        306,
+        403,
+        500,
+        597,
+        694,
+        791,
+        888,
+        985,
+        1082,
+        1179,
+        1276,
+        1373
+      ],
+      "nearby_same_card": [
+        112,
+        209
+      ],
+      "previous_token": 14,
+      "next_token": 16,
+      "mirror_token": 1387,
+      "same_set_pass_neighbors": [
+        52,
+        112
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Carta loquitur, mercatus tremit.",
+      "rough_translation": "The card speaks; the market trembles.",
+      "token_gloss": "Bad monastery Latin for DaVinci under Sei di Spade; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi seidispade --base davinci --token 0015",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Sei di Spade",
+        "base decoded from codons: DaVinci",
+        "case file: PATRON GROUPCHAT LEAK",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 15,
       "source_panel_index": 3,
@@ -151,6 +525,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "01b683f2c1737c0d7ec116398b8da45499d82969cd7bced6fabb548498108119",
+      "metadata_without_provenance_hashes_sha256": "018d958752ef0d3f5c15476208ee0b66af129c84657275aea47f3b76219b7500",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

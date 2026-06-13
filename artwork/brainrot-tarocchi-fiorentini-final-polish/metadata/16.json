@@ -52,7 +52,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #16",
@@ -61,8 +61,8 @@
       "period_looksmaxx_plaque": "BOTTICELLI VENUSMAXX MIRROR NOTE: veil the jaw like a banking secret before guild inspection. The frame asks for royalties, logged before the patron blinked.",
       "qr_payload_if_drawn": null,
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #16 // BASE BOTTICELLI // MARKER GATTAAACTACCATATGTGAACTCCTAATT // SERIAL BOTT-16",
-        "SUPPLY 1401 // PALETTE windows bruise // OUTER EDGE ASCII UNDERLAYER // FANUM-TAX LEDGER"
+        "FLORENTINE BRAINROT #16 // BOTTICELLI // GATTAAACTACCATATGTGAACTCCTAATT // BOTT-16",
+        "MINCHIATE 97×14+43 // DUE DI SPADE // PAL windows bruise // FANUM-TAX LEDGER"
       ],
       "tarocchi_card_body": "Due di Spade",
       "generated_insert_label": "a mempool monster with little Renaissance shoes",
@@ -97,6 +97,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Due di Spade",
+        "translations": {
+          "italian": "Due di Spade",
+          "english": "Two of Swords",
+          "spanish": "Dos de Espadas",
+          "french": "Deux de Épées",
+          "german": "Zwei der Schwerter",
+          "portuguese": "Dois de Espadas",
+          "chinese_simplified": "宝剑二"
+        },
         "category": "seme",
         "motif": "sword_pip",
         "roman": null,
@@ -116,7 +125,12 @@
     "brainrot_explanation": {
       "plain_english": "Read plainly: Botticelli is treated as evidence in mirror court minutes. The old-world clue is a Polybius square drawn into a wool-guild ledger; the modern-world echo is a bug report filed by a jealous workshop apprentice. The joke is that Renaissance patronage, holy paperwork, and today's marketplace/status feed are the same machine wearing different costumes.",
       "read_between_the_lines": "The Due di Spade card is not decorative; it is the witness that tells you how to read the room. The Due di Spade motif turns the whole panel into a little court exhibit. The patron calls it taste because fraud sounds expensive. The slang is a translation layer: sacred authority becomes aura, patronage becomes Fanum-tax economics, and marginalia becomes groupchat evidence.",
-      "slang_for_normal_plebs": []
+      "slang_for_normal_plebs": [
+        {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        }
+      ]
     },
     "case_file": {
       "case": "MIRROR COURT MINUTES",
@@ -125,6 +139,372 @@
       "evidence": "the Due di Spade motif turns the whole panel into a little court exhibit",
       "verdict": "the patron calls it taste because fraud sounds expensive",
       "reply": "margin reply: same case, different halo"
+    },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Due di Spade",
+      "translations": {
+        "italian": "Due di Spade",
+        "english": "Two of Swords",
+        "spanish": "Dos de Espadas",
+        "french": "Deux de Épées",
+        "german": "Zwei der Schwerter",
+        "portuguese": "Dois de Espadas",
+        "chinese_simplified": "宝剑二"
+      },
+      "card_index_in_reference_deck_1_based": 71,
+      "allocation_position_0_based": 93,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        16,
+        113,
+        210,
+        307,
+        404,
+        501,
+        598,
+        695,
+        792,
+        889,
+        986,
+        1083,
+        1180,
+        1277,
+        1374
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0016/BOTTICELLI-DUEDISPADE",
+      "debit": "one QR oracle, paid in candle smoke",
+      "credit": "three units of saintly plausible deniability",
+      "witness": "Due di Spade",
+      "insert_evidence": "a mempool monster with little Renaissance shoes",
+      "notary_note": "The Due di Spade motif turns the whole panel into a little court exhibit. The patron paid in aura, not florins.",
+      "balance": "642 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "GATTAAACTACCATATGTGAACTCCTAATT",
+      "visible_serial": "BOTT-16",
+      "triplets": [
+        "GAT",
+        "TAA",
+        "ACT",
+        "ACC",
+        "ATA",
+        "TGT",
+        "GAA",
+        "CTC",
+        "CTA",
+        "ATT"
+      ],
+      "amino_acid_trace": [
+        "D",
+        "O",
+        "T",
+        "T",
+        "I",
+        "C",
+        "E",
+        "L",
+        "L",
+        "I"
+      ],
+      "father_strand": {
+        "name": "BOTTICELLI-PATER",
+        "dna": "GTCTAAACTACCATATGTGAACTCCTAATT",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "WINDOWSBRUIS-MATER",
+        "dna": "CTAATTTGATGGTATACACTTGAGGATTAA",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "GTTCAAACTACCGTATGTGAACACCTAATT"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "CAAATTTGATGGTATAAACTTGATAATTAA"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "GTCTCAACTACAATATGTTAACTCCTAATT"
+        }
+      ],
+      "children": [
+        {
+          "name": "BOTT-16-FIGLIO-A",
+          "dna": "GATTAAACTACCATAACACTTGAGGATTAA",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "BOTT-16-FIGLIO-B",
+          "dna": "GTCTAAACTACCATATGTGAACTCCTAATT",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Botticelli",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "BOTTICELLI DUEDISPADE",
+      "lines": [
+        "Botticelli was copied into the margin before the patron noticed.",
+        "Oracle points from a Polybius square drawn into a wool-guild ledger to a bug report filed by a jealous workshop apprentice.",
+        "Tarocchi left a checksum where a halo should be.",
+        "Tarocchi was copied into the margin before the patron noticed.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "Cosimo keeps the mirror court minutes from looking innocent.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Laurenziana pretends to be decoration but behaves like testimony.",
+        "Laurenziana points from a Polybius square drawn into a wool-guild ledger to a bug report filed by a jealous workshop apprentice.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "//",
+        "Duomo keeps the mirror court minutes from looking innocent.",
+        "Undertext left a checksum where a halo should be.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Duomo keeps the mirror court minutes from looking innocent.",
+        "Ink left a checksum where a halo should be.",
+        "Scribe pretends to be decoration but behaves like testimony.",
+        "Patron points from a Polybius square drawn into a wool-guild ledger to a bug report filed by a jealous workshop apprentice.",
+        "Archive pretends to be decoration but behaves like testimony.",
+        "Duomo left a checksum where a halo should be.",
+        "Evidence left a checksum where a halo should be."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Botticelli anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Due di Spade decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a bug report filed by a jealous workshop apprentice leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Rage Comic Fresco Court slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Due di Spade",
+        "translations": {
+          "italian": "Due di Spade",
+          "english": "Two of Swords",
+          "spanish": "Dos de Espadas",
+          "french": "Deux de Épées",
+          "german": "Zwei der Schwerter",
+          "portuguese": "Dois de Espadas",
+          "chinese_simplified": "宝剑二"
+        }
+      },
+      "shadow_card": {
+        "italian": "Il Ganellino",
+        "translations": {
+          "italian": "Il Ganellino",
+          "english": "The Juggler",
+          "spanish": "El Juglar",
+          "french": "Le Bateleur",
+          "german": "Der Gaukler",
+          "portuguese": "O Prestidigitador",
+          "chinese_simplified": "杂耍者"
+        }
+      },
+      "remedy_card": {
+        "italian": "Due di Bastoni",
+        "translations": {
+          "italian": "Due di Bastoni",
+          "english": "Two of Batons",
+          "spanish": "Dos de Bastos",
+          "french": "Deux de Bâtons",
+          "german": "Zwei der Stäbe",
+          "portuguese": "Dois de Paus",
+          "chinese_simplified": "权杖二"
+        }
+      },
+      "reading": "Due di Spade names Botticelli as the witness; Il Ganellino shows where the scandal hides; Due di Bastoni is the exit route after a bug report filed by a jealous workshop apprentice starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.17.16-BRAINROT-0016",
+      "catalogue_title": "Botticelli under Due di Spade",
+      "condition": "vellum curl, server-room ozone, patron fingerprints",
+      "marginal_warning": "Open only after the patron leaves the room.",
+      "palette_binding": "windows bruise"
+    },
+    "qr_plaintext_archive": {
+      "drawn": false,
+      "absence_note": "No QR appeared on this token. Due di Spade refused to scan and left the witness work to the margins."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "not drawn on even-numbered tokens"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            316,
+            2130,
+            2398,
+            2383
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            1058,
+            2471,
+            2901,
+            2898
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Opening the metadata counts as participation in the trial.",
+      "This file has already been read by one Medici accountant.",
+      "The archive denies all aura liability.",
+      "Due di Spade is a witness, not a decorative rectangle.",
+      "If the ledger balances, something has gone terribly wrong."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        16,
+        113,
+        210,
+        307,
+        404,
+        501,
+        598,
+        695,
+        792,
+        889,
+        986,
+        1083,
+        1180,
+        1277,
+        1374
+      ],
+      "nearby_same_card": [
+        113,
+        210
+      ],
+      "previous_token": 15,
+      "next_token": 17,
+      "mirror_token": 1386,
+      "same_set_pass_neighbors": [
+        53,
+        113
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Carta loquitur, mercatus tremit.",
+      "rough_translation": "The card speaks; the market trembles.",
+      "token_gloss": "Bad monastery Latin for Botticelli under Due di Spade; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi duedispade --base botticelli --token 0016",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Due di Spade",
+        "base decoded from codons: Botticelli",
+        "case file: MIRROR COURT MINUTES",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
     },
     "render_context": {
       "source_token_id": 16,
@@ -138,6 +518,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "ac68c91fe0aa750c2cd7d1ce032eeddd7ae771619c54fc82973197c75fd8f439",
+      "metadata_without_provenance_hashes_sha256": "2fa54ebf4d678e4c2d1e1e96b5e1b4aaa7ec84d98398714f0808e6536c3cc73b",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

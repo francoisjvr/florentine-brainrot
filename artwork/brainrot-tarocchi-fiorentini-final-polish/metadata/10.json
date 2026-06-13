@@ -52,7 +52,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #10",
@@ -61,8 +61,8 @@
       "period_looksmaxx_plaque": "MONA LISA SFUMATOMAXX MIRROR NOTE: ink Theban contour lines around the lips beside the NPC docent loop. The mirror says no cap, kept short for plaque survival.",
       "qr_payload_if_drawn": null,
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #10 // BASE MONALISA // MARKER ATGTAAAACGCTCTCATATCTGCC // SERIAL MONA-10",
-        "SUPPLY 1401 // PALETTE windows bruise // OUTER EDGE ASCII UNDERLAYER // TOUCH-GRASS DECREE"
+        "FLORENTINE BRAINROT #10 // MONALISA // ATGTAAAACGCTCTCATATCTGCC // MONA-10",
+        "MINCHIATE 97×14+43 // QUATTRO DI DENARI // PAL windows bruise // TOUCH-GRASS DECREE"
       ],
       "tarocchi_card_body": "Quattro di Denari",
       "generated_insert_label": "a saintly captcha angel with broken checkboxes",
@@ -97,6 +97,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Quattro di Denari",
+        "translations": {
+          "italian": "Quattro di Denari",
+          "english": "Four of Coins",
+          "spanish": "Cuatro de Oros",
+          "french": "Quatre de Deniers",
+          "german": "Vier der Münzen",
+          "portuguese": "Quatro de Ouros",
+          "chinese_simplified": "钱币四"
+        },
         "category": "seme",
         "motif": "coin_pip",
         "roman": null,
@@ -117,6 +126,10 @@
       "plain_english": "Read plainly: Mona Lisa is treated as evidence in notary case. The old-world clue is a guild rarity sermon hidden inside an attribute table; the modern-world echo is an Ohio map pin inside the Duomo floor plan. The joke is that Renaissance patronage, holy paperwork, and today's marketplace/status feed are the same machine wearing different costumes.",
       "read_between_the_lines": "The Quattro di Denari card is not decorative; it is the witness that tells you how to read the room. The Quattro di Denari motif turns the whole panel into a little court exhibit. Cosimo approves the lighting and ignores the crime. The slang is a translation layer: sacred authority becomes aura, patronage becomes Fanum-tax economics, and marginalia becomes groupchat evidence.",
       "slang_for_normal_plebs": [
+        {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        },
         {
           "term": "npc",
           "translation_for_normal_plebs": "background-character energy; a docent, patron, or scribe trapped in loop behavior"
@@ -139,6 +152,369 @@
       "verdict": "Cosimo approves the lighting and ignores the crime",
       "reply": "workshop reply: this was not a random sticker"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Quattro di Denari",
+      "translations": {
+        "italian": "Quattro di Denari",
+        "english": "Four of Coins",
+        "spanish": "Cuatro de Oros",
+        "french": "Quatre de Deniers",
+        "german": "Vier der Münzen",
+        "portuguese": "Quatro de Ouros",
+        "chinese_simplified": "钱币四"
+      },
+      "card_index_in_reference_deck_1_based": 45,
+      "allocation_position_0_based": 65,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        10,
+        107,
+        204,
+        301,
+        398,
+        495,
+        592,
+        689,
+        786,
+        883,
+        980,
+        1077,
+        1174,
+        1271,
+        1368
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0010/MONALISA-QUATTRODID",
+      "debit": "two witness statements and a saint with liquidity issues",
+      "credit": "one patronage loop disguised as taste",
+      "witness": "Quattro di Denari",
+      "insert_evidence": "a saintly captcha angel with broken checkboxes",
+      "notary_note": "The Quattro di Denari motif turns the whole panel into a little court exhibit. The patron paid in aura, not florins.",
+      "balance": "504 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "ATGTAAAACGCTCTCATATCTGCC",
+      "visible_serial": "MONA-10",
+      "triplets": [
+        "ATG",
+        "TAA",
+        "AAC",
+        "GCT",
+        "CTC",
+        "ATA",
+        "TCT",
+        "GCC"
+      ],
+      "amino_acid_trace": [
+        "M",
+        "O",
+        "N",
+        "A",
+        "L",
+        "I",
+        "S",
+        "A"
+      ],
+      "father_strand": {
+        "name": "MONALISA-PATER",
+        "dna": "ATGTAAAACGCTCTCATAGCTGTC",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "WINDOWSBRUIS-MATER",
+        "dna": "TACATTTTGCGAGAGTATAGACGG",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "ATGTAATACGATATCATCTCTGCC"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "TACATCTTGCGAGAGAAGAGACGC"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "ATGTAAAACGCTCTCCTAGCAGTG"
+        }
+      ],
+      "children": [
+        {
+          "name": "MONA-10-FIGLIO-A",
+          "dna": "ATGTAAAACGCTGAGTATAGACGG",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "MONA-10-FIGLIO-B",
+          "dna": "ATGTAAAACGCTCTCATATCTGCC",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Mona Lisa",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "MONALISA QUATTRODID",
+      "lines": [
+        "Medici left a checksum where a halo should be.",
+        "Oracle keeps the notary case from looking innocent.",
+        "Notary pretends to be decoration but behaves like testimony.",
+        "Archive left a checksum where a halo should be.",
+        "Laurenziana left a checksum where a halo should be.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "Scribe pretends to be decoration but behaves like testimony.",
+        "Archive points from a guild rarity sermon hidden inside an attribute table to an Ohio map pin inside the Duomo floor plan.",
+        "//",
+        "Quarantine smells faintly of candle smoke and server dust.",
+        "Undertext left a checksum where a halo should be.",
+        "Archive keeps the notary case from looking innocent.",
+        "Tarocchi pretends to be decoration but behaves like testimony.",
+        "Tarocchi was copied into the margin before the patron noticed.",
+        "Receipt smells faintly of candle smoke and server dust.",
+        "Oracle pretends to be decoration but behaves like testimony.",
+        "Duomo left a checksum where a halo should be.",
+        "Ink left a checksum where a halo should be.",
+        "Duomo was copied into the margin before the patron noticed."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Mona Lisa anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Quattro di Denari decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "an Ohio map pin inside the Duomo floor plan leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Rage Comic Fresco Court slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Quattro di Denari",
+        "translations": {
+          "italian": "Quattro di Denari",
+          "english": "Four of Coins",
+          "spanish": "Cuatro de Oros",
+          "french": "Quatre de Deniers",
+          "german": "Vier der Münzen",
+          "portuguese": "Quatro de Ouros",
+          "chinese_simplified": "钱币四"
+        }
+      },
+      "shadow_card": {
+        "italian": "Tre di Spade",
+        "translations": {
+          "italian": "Tre di Spade",
+          "english": "Three of Swords",
+          "spanish": "Tres de Espadas",
+          "french": "Trois de Épées",
+          "german": "Drei der Schwerter",
+          "portuguese": "Três de Espadas",
+          "chinese_simplified": "宝剑三"
+        }
+      },
+      "remedy_card": {
+        "italian": "Asso di Bastoni",
+        "translations": {
+          "italian": "Asso di Bastoni",
+          "english": "Ace of Batons",
+          "spanish": "As de Bastos",
+          "french": "As de Bâtons",
+          "german": "Ass der Stäbe",
+          "portuguese": "Ás de Paus",
+          "chinese_simplified": "权杖一"
+        }
+      },
+      "reading": "Quattro di Denari names Mona Lisa as the witness; Tre di Spade shows where the scandal hides; Asso di Bastoni is the exit route after an Ohio map pin inside the Duomo floor plan starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.11.71-BRAINROT-0010",
+      "catalogue_title": "Monalisa under Quattro di Denari",
+      "condition": "green wax transfer, QR shadow, minor halo burn",
+      "marginal_warning": "Do not cite the notary after midnight.",
+      "palette_binding": "windows bruise"
+    },
+    "qr_plaintext_archive": {
+      "drawn": false,
+      "absence_note": "No QR appeared on this token. Quattro di Denari refused to scan and left the witness work to the margins."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "not drawn on even-numbered tokens"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            887,
+            2154,
+            2799,
+            2396
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            290,
+            2413,
+            2768,
+            2864
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Opening the metadata counts as participation in the trial.",
+      "Do not cite the notary after midnight.",
+      "The archive denies all aura liability.",
+      "If the Tarocchi card and QR code disagree, trust the card.",
+      "If the ledger balances, something has gone terribly wrong."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "npc": "background-character energy; a docent, patron, or scribe trapped in loop behavior",
+      "no cap": "not lying; used like a sworn notarial statement in cursed slang form",
+      "ohio": "surreal/random meme shorthand; a sign that the normal timeline has broken"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        10,
+        107,
+        204,
+        301,
+        398,
+        495,
+        592,
+        689,
+        786,
+        883,
+        980,
+        1077,
+        1174,
+        1271,
+        1368
+      ],
+      "nearby_same_card": [
+        107,
+        204
+      ],
+      "previous_token": 9,
+      "next_token": 11,
+      "mirror_token": 1392,
+      "same_set_pass_neighbors": [
+        47,
+        107
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Carta loquitur, mercatus tremit.",
+      "rough_translation": "The card speaks; the market trembles.",
+      "token_gloss": "Bad monastery Latin for Mona Lisa under Quattro di Denari; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi quattrodidenari --base monalisa --token 0010",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Quattro di Denari",
+        "base decoded from codons: Mona Lisa",
+        "case file: NOTARY CASE",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 10,
       "source_panel_index": 4,
@@ -151,6 +527,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "e6dafd6eac72e7b15581d156c8c5b53de2db67be9660d38740f5c5f4e4259050",
+      "metadata_without_provenance_hashes_sha256": "6e0a94b346c823568fb6fe2546c4c6484a870aa9d5afd549dc465ca2dd1d3f3d",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

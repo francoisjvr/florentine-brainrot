@@ -56,7 +56,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #5",
@@ -65,8 +65,8 @@
       "period_looksmaxx_plaque": "BOTTICELLI VENUSMAXX MIRROR NOTE: mew through vespers beside the NPC docent loop. Blank attributes leave no shadow, filed as mirror evidence.",
       "qr_payload_if_drawn": "QR WITNESS #5: Regina di Bastoni names Botticelli; the groupchat says no cap and immediately screenshots the evidence.",
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #5 // BASE BOTTICELLI // MARKER GATTAAACTACCATATGTGAACTCCTAATT // SERIAL BOTT-5",
-        "SUPPLY 1401 // PALETTE windows bruise // OUTER EDGE ASCII UNDERLAYER // GOATED CHAPEL RUN"
+        "FLORENTINE BRAINROT #5 // BOTTICELLI // GATTAAACTACCATATGTGAACTCCTAATT // BOTT-5",
+        "MINCHIATE 97×14+43 // REGINA DI BASTONI // PAL windows bruise // GOATED CHAPEL RUN"
       ],
       "tarocchi_card_body": "Regina di Bastoni",
       "generated_insert_label": "a low-res dove dropping governance ballots",
@@ -101,6 +101,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Regina di Bastoni",
+        "translations": {
+          "italian": "Regina di Bastoni",
+          "english": "Queen of Batons",
+          "spanish": "Reina de Bastos",
+          "french": "Reine de Bâtons",
+          "german": "Königin der Stäbe",
+          "portuguese": "Rainha de Paus",
+          "chinese_simplified": "权杖王后"
+        },
         "category": "seme",
         "motif": "staff_queen",
         "roman": null,
@@ -151,6 +160,378 @@
       "verdict": "the groupchat says no cap and immediately screenshots the evidence",
       "reply": "groupchat correction: the saint is not the punchline, the custody is"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Regina di Bastoni",
+      "translations": {
+        "italian": "Regina di Bastoni",
+        "english": "Queen of Batons",
+        "spanish": "Reina de Bastos",
+        "french": "Reine de Bâtons",
+        "german": "Königin der Stäbe",
+        "portuguese": "Rainha de Paus",
+        "chinese_simplified": "权杖王后"
+      },
+      "card_index_in_reference_deck_1_based": 96,
+      "allocation_position_0_based": 74,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        5,
+        102,
+        199,
+        296,
+        393,
+        490,
+        587,
+        684,
+        781,
+        878,
+        975,
+        1072,
+        1169,
+        1266,
+        1363
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0005/BOTTICELLI-REGINADIBA",
+      "debit": "one flaming auction paddle shaped like a hardware wallet",
+      "credit": "a notary laugh, sealed in green wax",
+      "witness": "Regina di Bastoni",
+      "insert_evidence": "a low-res dove dropping governance ballots",
+      "notary_note": "Every small note sounds like someone was trying to hide the same problem. The patron paid in aura, not florins.",
+      "balance": "642 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "GATTAAACTACCATATGTGAACTCCTAATT",
+      "visible_serial": "BOTT-5",
+      "triplets": [
+        "GAT",
+        "TAA",
+        "ACT",
+        "ACC",
+        "ATA",
+        "TGT",
+        "GAA",
+        "CTC",
+        "CTA",
+        "ATT"
+      ],
+      "amino_acid_trace": [
+        "D",
+        "O",
+        "T",
+        "T",
+        "I",
+        "C",
+        "E",
+        "L",
+        "L",
+        "I"
+      ],
+      "father_strand": {
+        "name": "BOTTICELLI-PATER",
+        "dna": "CATTAAACTACCATATGGGAACTCCTAATT",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "WINDOWSBRUIS-MATER",
+        "dna": "CTAATTTGATGGTATACACTTGAGGATTAA",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "GATTAAAATACCATATGGGAACTCCTAATT"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "CTAATTTGATGGTGGAAACTTGAGGACTAA"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "CATTAAACTACCATATGGCAACTCGTCATT"
+        }
+      ],
+      "children": [
+        {
+          "name": "BOTT-5-FIGLIO-A",
+          "dna": "GATTAAACTACCATAACACTTGAGGATTAA",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "BOTT-5-FIGLIO-B",
+          "dna": "CATTAAACTACCATATGTGAACTCCTAATT",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Botticelli",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "BOTTICELLI REGINADIBA",
+      "lines": [
+        "Botticelli was copied into the margin before the patron noticed.",
+        "Oracle keeps the notary case from looking innocent.",
+        "Tarocchi pretends to be decoration but behaves like testimony.",
+        "Tarocchi keeps the notary case from looking innocent.",
+        "Ink smells faintly of candle smoke and server dust.",
+        "Cosimo smells faintly of candle smoke and server dust.",
+        "Evidence left a checksum where a halo should be.",
+        "Laurenziana was copied into the margin before the patron noticed.",
+        "Laurenziana was copied into the margin before the patron noticed.",
+        "Ink was copied into the margin before the patron noticed.",
+        "//",
+        "Receipt left a checksum where a halo should be.",
+        "Evidence points from a codon-like triplet chant in a plague notebook to a clean attributes array ready for marketplace filters.",
+        "Giglio points from a codon-like triplet chant in a plague notebook to a clean attributes array ready for marketplace filters.",
+        "Ink smells faintly of candle smoke and server dust.",
+        "Notary was copied into the margin before the patron noticed.",
+        "Archive points from a codon-like triplet chant in a plague notebook to a clean attributes array ready for marketplace filters.",
+        "Duomo left a checksum where a halo should be.",
+        "Ink left a checksum where a halo should be.",
+        "Botticelli left a checksum where a halo should be.",
+        "Archive was copied into the margin before the patron noticed."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Botticelli anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Regina di Bastoni decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a clean attributes array ready for marketplace filters leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Degen Forum Relic Board slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Regina di Bastoni",
+        "translations": {
+          "italian": "Regina di Bastoni",
+          "english": "Queen of Batons",
+          "spanish": "Reina de Bastos",
+          "french": "Reine de Bâtons",
+          "german": "Königin der Stäbe",
+          "portuguese": "Rainha de Paus",
+          "chinese_simplified": "权杖王后"
+        }
+      },
+      "shadow_card": {
+        "italian": "La Morte",
+        "translations": {
+          "italian": "La Morte",
+          "english": "Death",
+          "spanish": "La Muerte",
+          "french": "La Mort",
+          "german": "Der Tod",
+          "portuguese": "A Morte",
+          "chinese_simplified": "死亡"
+        }
+      },
+      "remedy_card": {
+        "italian": "La Casa del Diavolo",
+        "translations": {
+          "italian": "La Casa del Diavolo",
+          "english": "The Devil's House",
+          "spanish": "La Casa del Diablo",
+          "french": "La Maison du Diable",
+          "german": "Das Haus des Teufels",
+          "portuguese": "A Casa do Diabo",
+          "chinese_simplified": "恶魔之屋"
+        }
+      },
+      "reading": "Regina di Bastoni names Botticelli as the witness; La Morte shows where the scandal hides; La Casa del Diavolo is the exit route after a clean attributes array ready for marketplace filters starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.6.36-BRAINROT-0005",
+      "catalogue_title": "Botticelli under Regina di Bastoni",
+      "condition": "deckled edges, overheard notary laughter",
+      "marginal_warning": "Do not cite the notary after midnight.",
+      "palette_binding": "windows bruise"
+    },
+    "qr_plaintext_archive": {
+      "drawn": true,
+      "payload": "QR WITNESS #5: Regina di Bastoni names Botticelli; the groupchat says no cap and immediately screenshots the evidence.",
+      "decoded_by": "archive clerk with a suspiciously modern phone",
+      "interpretation": "The QR is not a link. It is Regina di Bastoni turning Botticelli into a witness statement."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "scannable plaintext QR oracle"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            887,
+            2154,
+            2799,
+            2396
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            290,
+            2413,
+            2768,
+            2864
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "If the ledger balances, something has gone terribly wrong.",
+      "Regina di Bastoni is a witness, not a decorative rectangle.",
+      "The archive denies all aura liability.",
+      "This file has already been read by one Medici accountant.",
+      "Do not let the codon marker breed near the provenance strip."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "goated": "treated as the greatest of all time, sometimes for stupid reasons",
+      "npc": "background-character energy; a docent, patron, or scribe trapped in loop behavior",
+      "no cap": "not lying; used like a sworn notarial statement in cursed slang form",
+      "opp": "opponent or enemy; in this world a rival guild, collector, or saintly antagonist"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        5,
+        102,
+        199,
+        296,
+        393,
+        490,
+        587,
+        684,
+        781,
+        878,
+        975,
+        1072,
+        1169,
+        1266,
+        1363
+      ],
+      "nearby_same_card": [
+        102,
+        199
+      ],
+      "previous_token": 4,
+      "next_token": 6,
+      "mirror_token": 1397,
+      "same_set_pass_neighbors": [
+        42,
+        102
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Carta loquitur, mercatus tremit.",
+      "rough_translation": "The card speaks; the market trembles.",
+      "token_gloss": "Bad monastery Latin for Botticelli under Regina di Bastoni; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi reginadibastoni --base botticelli --token 0005",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Regina di Bastoni",
+        "base decoded from codons: Botticelli",
+        "case file: NOTARY CASE",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 5,
       "source_panel_index": 5,
@@ -163,6 +544,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "3197b44f6edabc2305d4ff3b1c1076db4f57c2b13e980661303d5d0e46922a22",
+      "metadata_without_provenance_hashes_sha256": "c101255d875e425bd21b6be405adfdb70053877b9ebbf11c644f94248dfe836c",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

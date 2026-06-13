@@ -56,7 +56,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #7",
@@ -65,8 +65,8 @@
       "period_looksmaxx_plaque": "RAPHAEL CHERUBCHEEKMAXX MIRROR NOTE: arrange curls like controlled fire while ATG opens the beauty sequence. Ballerina Cappuccina upgrades the receipt, approved by the jealous cousin.",
       "qr_payload_if_drawn": "AURA RECEIPT #7: every small note sounds like someone was trying to hide the same problem. Keep the copy.",
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #7 // BASE RAPHAEL // MARKER CGTGCTCCTCACGCCGAACTC // SERIAL RAPH-7",
-        "SUPPLY 1401 // PALETTE crt goblin // OUTER EDGE ASCII UNDERLAYER // ORB PONDERER"
+        "FLORENTINE BRAINROT #7 // RAPHAEL // CGTGCTCCTCACGCCGAACTC // RAPH-7",
+        "MINCHIATE 97×14+43 // IL MATTO // PAL crt goblin // ORB PONDERER"
       ],
       "tarocchi_card_body": "Il Matto",
       "generated_insert_label": "a low-res dove dropping governance ballots",
@@ -101,6 +101,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Il Matto",
+        "translations": {
+          "italian": "Il Matto",
+          "english": "The Fool",
+          "spanish": "El Loco",
+          "french": "Le Fou",
+          "german": "Der Narr",
+          "portuguese": "O Louco",
+          "chinese_simplified": "愚者"
+        },
         "category": "matto",
         "motif": "matto",
         "roman": "0",
@@ -143,6 +152,364 @@
       "verdict": "the archive files it under miracle-adjacent behaviour",
       "reply": "groupchat correction: the saint is not the punchline, the custody is"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Il Matto",
+      "translations": {
+        "italian": "Il Matto",
+        "english": "The Fool",
+        "spanish": "El Loco",
+        "french": "Le Fou",
+        "german": "Der Narr",
+        "portuguese": "O Louco",
+        "chinese_simplified": "愚者"
+      },
+      "card_index_in_reference_deck_1_based": 1,
+      "allocation_position_0_based": 51,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        7,
+        104,
+        201,
+        298,
+        395,
+        492,
+        589,
+        686,
+        783,
+        880,
+        977,
+        1074,
+        1171,
+        1268,
+        1365
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0007/RAPHAEL-ILMATTO",
+      "debit": "one QR oracle, paid in candle smoke",
+      "credit": "seven fragments of marketplace aura",
+      "witness": "Il Matto",
+      "insert_evidence": "a low-res dove dropping governance ballots",
+      "notary_note": "Every small note sounds like someone was trying to hide the same problem. The patron paid in aura, not florins.",
+      "balance": "366 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "CGTGCTCCTCACGCCGAACTC",
+      "visible_serial": "RAPH-7",
+      "triplets": [
+        "CGT",
+        "GCT",
+        "CCT",
+        "CAC",
+        "GCC",
+        "GAA",
+        "CTC"
+      ],
+      "amino_acid_trace": [
+        "R",
+        "A",
+        "P",
+        "H",
+        "A",
+        "E",
+        "L"
+      ],
+      "father_strand": {
+        "name": "RAPHAEL-PATER",
+        "dna": "CGTGCTTCTCACGCCGAACTG",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "CRTGOBLIN-MATER",
+        "dna": "GCACGAGGAGTGCGGCTTGAG",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "CGCGCTCCTAACGGGGAACTC"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "GCGCGAGGCCTGCGGCTTGAC"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "CGTGCCTCTCACACCGAACGG"
+        }
+      ],
+      "children": [
+        {
+          "name": "RAPH-7-FIGLIO-A",
+          "dna": "CGTGCTCCTCTGCGGCTTGAG",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "RAPH-7-FIGLIO-B",
+          "dna": "CGTGCTTCTCACGCCGAACTC",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Raphael",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "RAPHAEL ILMATTO",
+      "lines": [
+        "Receipt left a checksum where a halo should be.",
+        "Archive points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "Patron left a checksum where a halo should be.",
+        "Halo pretends to be decoration but behaves like testimony.",
+        "Archive points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "Evidence keeps the notary case from looking innocent.",
+        "Laurenziana points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "//",
+        "Ink points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "Laurenziana points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "Medici points from Bombardiro Crocodilo in a fake bestiary page to a zodiac-risk dashboard for patron liquidity.",
+        "Archive keeps the notary case from looking innocent.",
+        "Tarocchi smells faintly of candle smoke and server dust.",
+        "Tarocchi keeps the notary case from looking innocent.",
+        "Oracle pretends to be decoration but behaves like testimony."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Raphael anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Il Matto decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a zodiac-risk dashboard for patron liquidity leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Vaporwave Medici Mall slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Il Matto",
+        "translations": {
+          "italian": "Il Matto",
+          "english": "The Fool",
+          "spanish": "El Loco",
+          "french": "Le Fou",
+          "german": "Der Narr",
+          "portuguese": "O Louco",
+          "chinese_simplified": "愚者"
+        }
+      },
+      "shadow_card": {
+        "italian": "Vergine",
+        "translations": {
+          "italian": "Vergine",
+          "english": "Virgo",
+          "spanish": "Virgo",
+          "french": "Vierge",
+          "german": "Jungfrau",
+          "portuguese": "Virgem",
+          "chinese_simplified": "处女座"
+        }
+      },
+      "remedy_card": {
+        "italian": "Aria",
+        "translations": {
+          "italian": "Aria",
+          "english": "Air",
+          "spanish": "Aire",
+          "french": "Air",
+          "german": "Luft",
+          "portuguese": "Ar",
+          "chinese_simplified": "风"
+        }
+      },
+      "reading": "Il Matto names Raphael as the witness; Vergine shows where the scandal hides; Aria is the exit route after a zodiac-risk dashboard for patron liquidity starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.8.50-BRAINROT-0007",
+      "catalogue_title": "Raphael under Il Matto",
+      "condition": "vellum curl, server-room ozone, patron fingerprints",
+      "marginal_warning": "Open only after the patron leaves the room.",
+      "palette_binding": "crt goblin"
+    },
+    "qr_plaintext_archive": {
+      "drawn": true,
+      "payload": "AURA RECEIPT #7: every small note sounds like someone was trying to hide the same problem. Keep the copy.",
+      "decoded_by": "archive clerk with a suspiciously modern phone",
+      "interpretation": "The QR is not a link. It is Il Matto turning Raphael into a witness statement."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "scannable plaintext QR oracle"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            870,
+            2079,
+            2864,
+            2331
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            171,
+            2454,
+            2287,
+            2898
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Do not cite the notary after midnight.",
+      "Opening the metadata counts as participation in the trial.",
+      "Do not let the codon marker breed near the provenance strip.",
+      "If the ledger balances, something has gone terribly wrong.",
+      "Il Matto is a witness, not a decorative rectangle."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "aura": "status, presence, or holy-looking social charge; Renaissance clout converted into meme units",
+      "opp": "opponent or enemy; in this world a rival guild, collector, or saintly antagonist"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        7,
+        104,
+        201,
+        298,
+        395,
+        492,
+        589,
+        686,
+        783,
+        880,
+        977,
+        1074,
+        1171,
+        1268,
+        1365
+      ],
+      "nearby_same_card": [
+        104,
+        201
+      ],
+      "previous_token": 6,
+      "next_token": 8,
+      "mirror_token": 1395,
+      "same_set_pass_neighbors": [
+        44,
+        104
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Medices computat, angelus recusat.",
+      "rough_translation": "The Medici accountant counts; the angel refuses.",
+      "token_gloss": "Bad monastery Latin for Raphael under Il Matto; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi ilmatto --base raphael --token 0007",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Il Matto",
+        "base decoded from codons: Raphael",
+        "case file: NOTARY CASE",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 7,
       "source_panel_index": 1,
@@ -155,6 +522,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "c2ec05268f28494b7cc74ac77ce2ef988b39e0e4080352375631009569e198df",
+      "metadata_without_provenance_hashes_sha256": "e315e24923df2890c49e888f8a370f756f4c0c8d79ec2f42fc7268babb63b0e9",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

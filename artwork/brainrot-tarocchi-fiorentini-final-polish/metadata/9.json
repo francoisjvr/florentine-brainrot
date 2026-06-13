@@ -56,7 +56,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #9",
@@ -65,8 +65,8 @@
       "period_looksmaxx_plaque": "BOTTICELLI VENUSMAXX MIRROR NOTE: turn the under-eye bags into zodiac houses before guild inspection. The guild records sigma behavior, noted in the beauty ledger.",
       "qr_payload_if_drawn": "TAROCCHI NOTE 2.02: Aria enters the ledger; the notary marks it suspicious but lets it hang.",
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #9 // BASE BOTTICELLI // MARKER GATTAAACTACCATATGTGAACTCCTAATT // SERIAL BOTT-9",
-        "SUPPLY 1401 // PALETTE windows bruise // OUTER EDGE ASCII UNDERLAYER // ORACLE POSTING"
+        "FLORENTINE BRAINROT #9 // BOTTICELLI // GATTAAACTACCATATGTGAACTCCTAATT // BOTT-9",
+        "MINCHIATE 97×14+43 // ARIA // PAL windows bruise // ORACLE POSTING"
       ],
       "tarocchi_card_body": "Aria",
       "generated_insert_label": "a blockchain reliquary glowing inside a busted vending machine",
@@ -101,6 +101,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Aria",
+        "translations": {
+          "italian": "Aria",
+          "english": "Air",
+          "spanish": "Aire",
+          "french": "Air",
+          "german": "Luft",
+          "portuguese": "Ar",
+          "chinese_simplified": "风"
+        },
         "category": "elemento",
         "motif": "air",
         "roman": "XXIII",
@@ -121,6 +130,10 @@
       "plain_english": "Read plainly: Botticelli is treated as evidence in medici receipt drama. The old-world clue is a laurel-wreath diagram from an overfunded academy; the modern-world echo is a livestream chat asking if the saint is real. The joke is that Renaissance patronage, holy paperwork, and today's marketplace/status feed are the same machine wearing different costumes.",
       "read_between_the_lines": "The Aria card is not decorative; it is the witness that tells you how to read the room. The Aria omen matches a stain in the metaverse museum gift shop. The notary marks it suspicious but lets it hang. The slang is a translation layer: sacred authority becomes aura, patronage becomes Fanum-tax economics, and marginalia becomes groupchat evidence.",
       "slang_for_normal_plebs": [
+        {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        },
         {
           "term": "ratio",
           "translation_for_normal_plebs": "publicly losing the argument by crowd reaction; old patronage drama as comment metrics"
@@ -143,6 +156,371 @@
       "verdict": "the notary marks it suspicious but lets it hang",
       "reply": "desk note: follow the red string before vespers"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Aria",
+      "translations": {
+        "italian": "Aria",
+        "english": "Air",
+        "spanish": "Aire",
+        "french": "Air",
+        "german": "Luft",
+        "portuguese": "Ar",
+        "chinese_simplified": "风"
+      },
+      "card_index_in_reference_deck_1_based": 24,
+      "allocation_position_0_based": 28,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        9,
+        106,
+        203,
+        300,
+        397,
+        494,
+        591,
+        688,
+        785,
+        882,
+        979,
+        1076,
+        1173,
+        1270,
+        1367
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0009/BOTTICELLI-ARIA",
+      "debit": "two witness statements and a saint with liquidity issues",
+      "credit": "one patronage loop disguised as taste",
+      "witness": "Aria",
+      "insert_evidence": "a blockchain reliquary glowing inside a busted vending machine",
+      "notary_note": "The Aria omen matches a stain in the metaverse museum gift shop. The patron paid in aura, not florins.",
+      "balance": "642 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "GATTAAACTACCATATGTGAACTCCTAATT",
+      "visible_serial": "BOTT-9",
+      "triplets": [
+        "GAT",
+        "TAA",
+        "ACT",
+        "ACC",
+        "ATA",
+        "TGT",
+        "GAA",
+        "CTC",
+        "CTA",
+        "ATT"
+      ],
+      "amino_acid_trace": [
+        "D",
+        "O",
+        "T",
+        "T",
+        "I",
+        "C",
+        "E",
+        "L",
+        "L",
+        "I"
+      ],
+      "father_strand": {
+        "name": "BOTTICELLI-PATER",
+        "dna": "GATTAAACTACAATATGTGAACTTCTAATT",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "WINDOWSBRUIS-MATER",
+        "dna": "CTAATTTGATGGTATACACTTGAGGATTAA",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "GCTTAAACTACTATATGTGCACGCCTAATT"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "CTAATTTGACGGTTTAAACTTGAGGATTAG"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "AATTAAACTACATTATGTGAACATCTAATT"
+        }
+      ],
+      "children": [
+        {
+          "name": "BOTT-9-FIGLIO-A",
+          "dna": "GATTAAACTACCATAACACTTGAGGATTAA",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "BOTT-9-FIGLIO-B",
+          "dna": "GATTAAACTACCATATGTGAACTCCTAATT",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Botticelli",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "BOTTICELLI ARIA",
+      "lines": [
+        "Botticelli was copied into the margin before the patron noticed.",
+        "Oracle left a checksum where a halo should be.",
+        "Tarocchi smells faintly of candle smoke and server dust.",
+        "Tarocchi points from a laurel-wreath diagram from an overfunded academy to a livestream chat asking if the saint is real.",
+        "Ink left a checksum where a halo should be.",
+        "Cosimo was copied into the margin before the patron noticed.",
+        "Evidence pretends to be decoration but behaves like testimony.",
+        "Laurenziana was copied into the margin before the patron noticed.",
+        "Laurenziana pretends to be decoration but behaves like testimony.",
+        "Ink smells faintly of candle smoke and server dust.",
+        "//",
+        "Archive keeps the medici receipt drama from looking innocent.",
+        "Receipt keeps the medici receipt drama from looking innocent.",
+        "Ink smells faintly of candle smoke and server dust.",
+        "Archive smells faintly of candle smoke and server dust."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Botticelli anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Aria decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a livestream chat asking if the saint is real leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Low-Poly Renaissance Mallcore slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Aria",
+        "translations": {
+          "italian": "Aria",
+          "english": "Air",
+          "spanish": "Aire",
+          "french": "Air",
+          "german": "Luft",
+          "portuguese": "Ar",
+          "chinese_simplified": "风"
+        }
+      },
+      "shadow_card": {
+        "italian": "Dieci di Bastoni",
+        "translations": {
+          "italian": "Dieci di Bastoni",
+          "english": "Ten of Batons",
+          "spanish": "Diez de Bastos",
+          "french": "Dix de Bâtons",
+          "german": "Zehn der Stäbe",
+          "portuguese": "Dez de Paus",
+          "chinese_simplified": "权杖十"
+        }
+      },
+      "remedy_card": {
+        "italian": "Fantina di Denari",
+        "translations": {
+          "italian": "Fantina di Denari",
+          "english": "Maid/Page of Coins",
+          "spanish": "Sota de Oros",
+          "french": "Valette de Deniers",
+          "german": "Page der Münzen",
+          "portuguese": "Dama/Pajem de Ouros",
+          "chinese_simplified": "钱币女侍从"
+        }
+      },
+      "reading": "Aria names Botticelli as the witness; Dieci di Bastoni shows where the scandal hides; Fantina di Denari is the exit route after a livestream chat asking if the saint is real starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.10.64-BRAINROT-0009",
+      "catalogue_title": "Botticelli under Aria",
+      "condition": "water damage, meme residue, suspicious cyan pigment",
+      "marginal_warning": "Do not cite the notary after midnight.",
+      "palette_binding": "windows bruise"
+    },
+    "qr_plaintext_archive": {
+      "drawn": true,
+      "payload": "TAROCCHI NOTE 2.02: Aria enters the ledger; the notary marks it suspicious but lets it hang.",
+      "decoded_by": "archive clerk with a suspiciously modern phone",
+      "interpretation": "The QR is not a link. It is Aria turning Botticelli into a witness statement."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "scannable plaintext QR oracle"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            393,
+            2191,
+            2330,
+            2434
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            1178,
+            2369,
+            2915,
+            2857
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "This file has already been read by one Medici accountant.",
+      "Aria is a witness, not a decorative rectangle.",
+      "Do not let the codon marker breed near the provenance strip.",
+      "The archive denies all aura liability.",
+      "Opening the metadata counts as participation in the trial."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "ratio": "publicly losing the argument by crowd reaction; old patronage drama as comment metrics",
+      "sigma": "self-mythologized lone-wolf status; a patron, saint, or relic trying too hard to seem untouchable",
+      "sus": "suspicious; evidence that the relic, receipt, or miracle is not behaving normally"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        9,
+        106,
+        203,
+        300,
+        397,
+        494,
+        591,
+        688,
+        785,
+        882,
+        979,
+        1076,
+        1173,
+        1270,
+        1367
+      ],
+      "nearby_same_card": [
+        106,
+        203
+      ],
+      "previous_token": 8,
+      "next_token": 10,
+      "mirror_token": 1393,
+      "same_set_pass_neighbors": [
+        46,
+        106
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Patronus vidit, notarius risit.",
+      "rough_translation": "The patron saw it; the notary laughed.",
+      "token_gloss": "Bad monastery Latin for Botticelli under Aria; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi aria --base botticelli --token 0009",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Aria",
+        "base decoded from codons: Botticelli",
+        "case file: MEDICI RECEIPT DRAMA",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 9,
       "source_panel_index": 3,
@@ -155,6 +533,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "9002db9a3a9cd71ff3ba7da61d0152d61e9802b3cfa7d5c69f22f3361fc9b9e2",
+      "metadata_without_provenance_hashes_sha256": "c262addb906b2fdf10c52a3f79fea17b8bf031619e7d9a09ebcc6cdd6a952a44",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }

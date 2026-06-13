@@ -52,7 +52,7 @@
     }
   ],
   "florentine_brainrot": {
-    "schema": "florentine_brainrot.collector_data.v1",
+    "schema": "florentine_brainrot.collector_data.v2",
     "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
     "visible_text": {
       "title": "FLORENTINE BRAINROT #20",
@@ -61,8 +61,8 @@
       "period_looksmaxx_plaque": "MICHELANGELO MARBLEMAXX MIRROR NOTE: ask a pigeon to audit symmetry while the notary writes what the sigma. The chapel whispers back, witnessed by the candle smoke.",
       "qr_payload_if_drawn": null,
       "bottom_provenance_strip": [
-        "FLORENTINE BRAINROT #20 // BASE MICHELANGELO // MARKER ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA // SERIAL MICH-20",
-        "SUPPLY 1401 // PALETTE glitch candy rot // OUTER EDGE ASCII UNDERLAYER // BACON RIBBON"
+        "FLORENTINE BRAINROT #20 // MICHELANGELO // ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA // MICH-20",
+        "MINCHIATE 97×14+43 // DUE DI COPPE // PAL glitch candy rot // BACON RIBBON"
       ],
       "tarocchi_card_body": "Due di Coppe",
       "generated_insert_label": "a low-res dove dropping governance ballots",
@@ -97,6 +97,15 @@
       "tarocchi_fiorentini": {
         "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
         "italian_name": "Due di Coppe",
+        "translations": {
+          "italian": "Due di Coppe",
+          "english": "Two of Cups",
+          "spanish": "Dos de Copas",
+          "french": "Deux de Coupes",
+          "german": "Zwei der Kelche",
+          "portuguese": "Dois de Copas",
+          "chinese_simplified": "圣杯二"
+        },
         "category": "seme",
         "motif": "cup_pip",
         "roman": null,
@@ -117,6 +126,10 @@
       "plain_english": "Read plainly: Michelangelo is treated as evidence in reliquary support ticket. The old-world clue is a corecore chapel chant in broken notation; the modern-world echo is a rarity dashboard fed only by actual trait values. The joke is that Renaissance patronage, holy paperwork, and today's marketplace/status feed are the same machine wearing different costumes.",
       "read_between_the_lines": "The Due di Coppe card is not decorative; it is the witness that tells you how to read the room. The Due di Coppe omen matches a stain in the museum security office after midnight. The guild refuses to explain why the halo has admin rights. The slang is a translation layer: sacred authority becomes aura, patronage becomes Fanum-tax economics, and marginalia becomes groupchat evidence.",
       "slang_for_normal_plebs": [
+        {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        },
         {
           "term": "mid",
           "translation_for_normal_plebs": "ordinary or disappointing, especially when the crowd expected revelation"
@@ -147,6 +160,380 @@
       "verdict": "the guild refuses to explain why the halo has admin rights",
       "reply": "Ficino margin: the funny line still has to mean something"
     },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Due di Coppe",
+      "translations": {
+        "italian": "Due di Coppe",
+        "english": "Two of Cups",
+        "spanish": "Dos de Copas",
+        "french": "Deux de Coupes",
+        "german": "Zwei der Kelche",
+        "portuguese": "Dois de Copas",
+        "chinese_simplified": "圣杯二"
+      },
+      "card_index_in_reference_deck_1_based": 57,
+      "allocation_position_0_based": 47,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        20,
+        117,
+        214,
+        311,
+        408,
+        505,
+        602,
+        699,
+        796,
+        893,
+        990,
+        1087,
+        1184,
+        1281,
+        1378
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-0020/MICHELANGE-DUEDICOPPE",
+      "debit": "two witness statements and a saint with liquidity issues",
+      "credit": "seven fragments of marketplace aura",
+      "witness": "Due di Coppe",
+      "insert_evidence": "a low-res dove dropping governance ballots",
+      "notary_note": "The Due di Coppe omen matches a stain in the museum security office after midnight. The patron paid in aura, not florins.",
+      "balance": "624 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA",
+      "visible_serial": "MICH-20",
+      "triplets": [
+        "ATG",
+        "ATA",
+        "TGT",
+        "CAC",
+        "GAA",
+        "CTC",
+        "GCT",
+        "AAC",
+        "GGA",
+        "GAG",
+        "CTA",
+        "TAA"
+      ],
+      "amino_acid_trace": [
+        "M",
+        "I",
+        "C",
+        "H",
+        "E",
+        "L",
+        "A",
+        "N",
+        "G",
+        "E",
+        "L",
+        "O"
+      ],
+      "father_strand": {
+        "name": "MICHELANGELO-PATER",
+        "dna": "ATGATATGTCACGAACTCGCTAGCGGGGAGCTATAA",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "GLITCHCANDYR-MATER",
+        "dna": "TACTATACAGTGCTTGAGCGATTGCCTCTCGATATT",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "ATGAGATGTCACGAACTCGACAACGGAGAGCTACAA"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "TACTATACAGTGCTTGAACGATTGCCTCTCCGTATG"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "ATGATCTGGCACAAACTCGCTAGCGGGGAGCTATAA"
+        }
+      ],
+      "children": [
+        {
+          "name": "MICH-20-FIGLIO-A",
+          "dna": "ATGATATGTCACGAACTCCGATTGCCTCTCGATATT",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "MICH-20-FIGLIO-B",
+          "dna": "ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Michelangelo",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "MICHELANGE DUEDICOPPE",
+      "lines": [
+        "Medici pretends to be decoration but behaves like testimony.",
+        "Ink keeps the reliquary support ticket from looking innocent.",
+        "Cosimo keeps the reliquary support ticket from looking innocent.",
+        "Halo smells faintly of candle smoke and server dust.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Laurenziana was copied into the margin before the patron noticed.",
+        "Archive left a checksum where a halo should be.",
+        "Notary points from a corecore chapel chant in broken notation to a rarity dashboard fed only by actual trait values.",
+        "Giglio left a checksum where a halo should be.",
+        "Evidence pretends to be decoration but behaves like testimony.",
+        "//",
+        "Duomo smells faintly of candle smoke and server dust.",
+        "Undertext left a checksum where a halo should be.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Duomo smells faintly of candle smoke and server dust.",
+        "Ink left a checksum where a halo should be.",
+        "Cosimo keeps the reliquary support ticket from looking innocent.",
+        "Oracle points from a corecore chapel chant in broken notation to a rarity dashboard fed only by actual trait values.",
+        "Patron smells faintly of candle smoke and server dust.",
+        "Patron points from a corecore chapel chant in broken notation to a rarity dashboard fed only by actual trait values.",
+        "Evidence was copied into the margin before the patron noticed."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Michelangelo anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Due di Coppe decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a rarity dashboard fed only by actual trait values leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "brainrot translation layer",
+        "meaning": "Degen Forum Relic Board slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Due di Coppe",
+        "translations": {
+          "italian": "Due di Coppe",
+          "english": "Two of Cups",
+          "spanish": "Dos de Copas",
+          "french": "Deux de Coupes",
+          "german": "Zwei der Kelche",
+          "portuguese": "Dois de Copas",
+          "chinese_simplified": "圣杯二"
+        }
+      },
+      "shadow_card": {
+        "italian": "Amore",
+        "translations": {
+          "italian": "Amore",
+          "english": "Love",
+          "spanish": "Amor",
+          "french": "Amour",
+          "german": "Liebe",
+          "portuguese": "Amor",
+          "chinese_simplified": "爱"
+        }
+      },
+      "remedy_card": {
+        "italian": "Nove di Bastoni",
+        "translations": {
+          "italian": "Nove di Bastoni",
+          "english": "Nine of Batons",
+          "spanish": "Nueve de Bastos",
+          "french": "Neuf de Bâtons",
+          "german": "Neun der Stäbe",
+          "portuguese": "Nove de Paus",
+          "chinese_simplified": "权杖九"
+        }
+      },
+      "reading": "Due di Coppe names Michelangelo as the witness; Amore shows where the scandal hides; Nove di Bastoni is the exit route after a rarity dashboard fed only by actual trait values starts behaving like evidence."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.21.44-BRAINROT-0020",
+      "catalogue_title": "Michelangelo under Due di Coppe",
+      "condition": "vellum curl, server-room ozone, patron fingerprints",
+      "marginal_warning": "Do not let the QR code face the moon.",
+      "palette_binding": "glitch candy rot"
+    },
+    "qr_plaintext_archive": {
+      "drawn": false,
+      "absence_note": "No QR appeared on this token. Due di Coppe refused to scan and left the witness work to the margins."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": null,
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "not drawn on even-numbered tokens"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": null,
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            887,
+            2154,
+            2799,
+            2396
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            290,
+            2413,
+            2768,
+            2864
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "If the Tarocchi card and QR code disagree, trust the card.",
+      "If the ledger balances, something has gone terribly wrong.",
+      "This file has already been read by one Medici accountant.",
+      "Do not cite the notary after midnight.",
+      "Due di Coppe is a witness, not a decorative rectangle."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "mid": "ordinary or disappointing, especially when the crowd expected revelation",
+      "opp": "opponent or enemy; in this world a rival guild, collector, or saintly antagonist",
+      "ratio": "publicly losing the argument by crowd reaction; old patronage drama as comment metrics",
+      "sigma": "self-mythologized lone-wolf status; a patron, saint, or relic trying too hard to seem untouchable"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        20,
+        117,
+        214,
+        311,
+        408,
+        505,
+        602,
+        699,
+        796,
+        893,
+        990,
+        1087,
+        1184,
+        1281,
+        1378
+      ],
+      "nearby_same_card": [
+        117,
+        214
+      ],
+      "previous_token": 19,
+      "next_token": 21,
+      "mirror_token": 1382,
+      "same_set_pass_neighbors": [
+        57,
+        117
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Carta loquitur, mercatus tremit.",
+      "rough_translation": "The card speaks; the market trembles.",
+      "token_gloss": "Bad monastery Latin for Michelangelo under Due di Coppe; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi duedicoppe --base michelangelo --token 0020",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Due di Coppe",
+        "base decoded from codons: Michelangelo",
+        "case file: RELIQUARY SUPPORT TICKET",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
     "render_context": {
       "source_token_id": 20,
       "source_panel_index": 2,
@@ -159,6 +546,13 @@
         3072,
         3072
       ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "14306c9aa33a45c7e4c612346799c634b39330c7abcc87f309d5cb1e190bd4f6",
+      "metadata_without_provenance_hashes_sha256": "c3248ec4df868c115c6cb9dd6b288a383fcce3566ce73db9cf34ff0c1cbda53a",
+      "render_family": "brainrot-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
       "resolution_basis": "3072px = six Medici palle × 512px each"
     }
   }
