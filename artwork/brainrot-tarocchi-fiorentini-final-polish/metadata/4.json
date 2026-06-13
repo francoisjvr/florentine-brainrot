@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #4",
+  "description": "Florentine Brainrot #4 is a blue screen reliquary single-panel relic built around Botticelli and Cursed Auction House UI. Tarocchi Fiorentini assigns Speranza, used here as the witness card. The source relic, the card, and the caption all accuse the same room. Cosimo approves the lighting and ignores the crime. Serial BOTT-4 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks GYATT at Σ 438.",
+  "image": "0004.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "ITALIAN BRAINROT VISITATION"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "blue screen reliquary"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Cursed Auction House UI"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "C64"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a cherub holding a QR code like a cursed coupon"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Speranza"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-4"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "GYATT"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 438,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 98,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 75,
+      "display_type": "number"
+    }
+  ]
+}

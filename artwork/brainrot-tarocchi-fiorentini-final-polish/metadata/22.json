@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #22",
+  "description": "Florentine Brainrot #22 is a nokia basilica single-panel relic built around Botticelli and Forum Signature Baroque. Tarocchi Fiorentini assigns Giustizia, used here as the witness card. Botticelli left a receipt where the Proof-of-Work Relic Auction should have been. The notary marks it suspicious but lets it hang. Serial BOTT-22 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks MEDICI at Σ 258.",
+  "image": "0022.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "COLD OPEN / NO-CAP"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "nokia basilica"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Forum Signature Baroque"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "C64"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a marble hand emerging from a phone screen with a seed phrase receipt"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Giustizia"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-22"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "MEDICI"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 258,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 81,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 77,
+      "display_type": "number"
+    }
+  ]
+}

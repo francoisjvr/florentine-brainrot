@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #16",
+  "description": "Florentine Brainrot #16 is a windows bruise single-panel relic built around Botticelli and Rage Comic Fresco Court. Tarocchi Fiorentini assigns Due di Spade, used here as the witness card. The Due di Spade motif turns the whole panel into a little court exhibit. The patron calls it taste because fraud sounds expensive. Serial BOTT-16 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks RIZZ at Σ 474.",
+  "image": "0016.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TAROT CANON EVENT"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "windows bruise"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Rage Comic Fresco Court"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "C64"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a mempool monster with little Renaissance shoes"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Due di Spade"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-16"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "RIZZ"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 474,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 100,
+      "display_type": "number"
+    }
+  ]
+}

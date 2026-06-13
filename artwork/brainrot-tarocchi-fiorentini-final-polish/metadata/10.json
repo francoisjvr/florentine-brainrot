@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #10",
+  "description": "Florentine Brainrot #10 is a windows bruise single-panel relic built around Mona Lisa and Rage Comic Fresco Court. Tarocchi Fiorentini assigns Quattro di Denari, used here as the witness card. The Quattro di Denari motif turns the whole panel into a little court exhibit. Cosimo approves the lighting and ignores the crime. Serial MONA-10 carries codon marker ATGTAAAACGCTCTCATATCTGCC; Gematria marks MONALISA at Σ 504.",
+  "image": "0010.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "ITALIAN BRAINROT VISITATION"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "windows bruise"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Rage Comic Fresco Court"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "C64"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a saintly captcha angel with broken checkboxes"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Quattro di Denari"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGTAAAACGCTCTCATATCTGCC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MONA-10"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "MONALISA"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 504,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 95,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 82,
+      "display_type": "number"
+    }
+  ]
+}

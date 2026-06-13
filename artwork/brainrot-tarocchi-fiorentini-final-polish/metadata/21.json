@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #21",
+  "description": "Florentine Brainrot #21 is a vapor pope single-panel relic built around Mona Lisa and Vaporwave Medici Mall. Tarocchi Fiorentini assigns Amore, used here as the witness card. The source relic, the card, and the caption all accuse the same room. Cosimo approves the lighting and ignores the crime. Serial MONA-21 carries codon marker ATGTAAAACGCTCTCATATCTGCC; Gematria marks NOCAP at Σ 294.",
+  "image": "0021.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TOUCH GRASS DECREE"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "vapor pope"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Vaporwave Medici Mall"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "PICO-8"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a low-res dove dropping governance ballots"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Amore"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGTAAAACGCTCTCATATCTGCC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MONA-21"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "NOCAP"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 294,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 74,
+      "display_type": "number"
+    }
+  ]
+}

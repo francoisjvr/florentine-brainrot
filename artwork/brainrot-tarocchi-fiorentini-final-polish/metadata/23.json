@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #23",
+  "description": "Florentine Brainrot #23 is a tabloid rust single-panel relic built around Machiavelli and Flash Game Guildhall. Tarocchi Fiorentini assigns Dieci di Bastoni, used here as the witness card. A witness line runs from a goated fresco receipt under varnish to a meme-caption escrow for delulu patrons without pretending it is holy. The collector gets a joke, but the joke has a ledger. Serial MACH-23 carries codon marker ATGGCTTGTCACATAGCCGTAGAACTCCTAATT; Gematria marks RELIC at Σ 282.",
+  "image": "0023.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Machiavelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "AURA TRIAL"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "tabloid rust"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Flash Game Guildhall"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "ARCADE"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a rubber stamp reading NOT FINANCIAL ADVICE in medieval ink"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Dieci di Bastoni"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGGCTTGTCACATAGCCGTAGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MACH-23"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "RELIC"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 282,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 54,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 81,
+      "display_type": "number"
+    }
+  ]
+}

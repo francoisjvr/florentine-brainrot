@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #13",
+  "description": "Florentine Brainrot #13 is a glitch candy rot single-panel relic built around Botticelli and Webring Validator Shrine. Tarocchi Fiorentini assigns Sette di Coppe, used here as the witness card. A witness line runs from a Solomonic seal copied in Florentine margin hand to a side-quest tracker for sacred receipts without pretending it is holy. The groupchat says no cap and immediately screenshots the evidence. Serial BOTT-13 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks RATIO at Σ 378.",
+  "image": "0013.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "RIZZLER RELIC"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "glitch candy rot"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Webring Validator Shrine"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "NES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a pixelated espresso cup that steams private keys"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Sette di Coppe"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-13"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "RATIO"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 378,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 72,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 84,
+      "display_type": "number"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #5",
+  "description": "Florentine Brainrot #5 is a windows bruise single-panel relic built around Botticelli and Degen Forum Relic Board. Tarocchi Fiorentini assigns Regina di Bastoni, used here as the witness card. Every small note sounds like someone was trying to hide the same problem. The groupchat says no cap and immediately screenshots the evidence. Serial BOTT-5 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks LORE at Σ 300.",
+  "image": "0005.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "SKIBIDI RELIC PANIC"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "windows bruise"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Degen Forum Relic Board"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "ARCADE"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a low-res dove dropping governance ballots"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Regina di Bastoni"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-5"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "LORE"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 300,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 90,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 75,
+      "display_type": "number"
+    }
+  ]
+}

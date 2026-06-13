@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #1",
+  "description": "Florentine Brainrot #1 is a glitch candy rot single-panel relic built around Medici and 404 Error Reliquary. Tarocchi Fiorentini assigns Re di Coppe, used here as the witness card. Medici left a receipt where the Blue-Check Prophet Collapse should have been. The small evidence marks become witnesses, not gimmicks. Serial MEDI-1 carries codon marker ATGGAAGATATATGTATT; Gematria marks FICINO at Σ 336.",
+  "image": "0001.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Medici"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TRAIT DISTORTION / SKIBIDI"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "glitch candy rot"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "404 Error Reliquary"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "NES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a flaming auction paddle shaped like a hardware wallet"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Re di Coppe"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGGAAGATATATGTATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MEDI-1"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "FICINO"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 336,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 78,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 77,
+      "display_type": "number"
+    }
+  ]
+}

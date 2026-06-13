@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #6",
+  "description": "Florentine Brainrot #6 is a meme macro primary single-panel relic built around Raphael and Rage Comic Fresco Court. Tarocchi Fiorentini assigns Imperatore d'Occidente, used here as the witness card. The Rage Comic Fresco Court layout makes the old scandal look newly clickable. The small evidence marks become witnesses, not gimmicks. Serial RAPH-6 carries codon marker CGTGCTCCTCACGCCGAACTC; Gematria marks SIDEQUEST at Σ 714.",
+  "image": "0006.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Raphael"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TRAIT GOBLIN"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "meme macro primary"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Rage Comic Fresco Court"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "SNES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a saintly captcha angel with broken checkboxes"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Imperatore d'Occidente"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "CGTGCTCCTCACGCCGAACTC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "RAPH-6"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "SIDEQUEST"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 714,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 95,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 82,
+      "display_type": "number"
+    }
+  ]
+}

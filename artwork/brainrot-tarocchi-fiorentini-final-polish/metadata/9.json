@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #9",
+  "description": "Florentine Brainrot #9 is a windows bruise single-panel relic built around Botticelli and Low-Poly Renaissance Mallcore. Tarocchi Fiorentini assigns Aria, used here as the witness card. The Aria omen matches a stain in the metaverse museum gift shop. The notary marks it suspicious but lets it hang. Serial BOTT-9 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks SIDEQUEST at Σ 714.",
+  "image": "0009.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TOUCH GRASS DECREE"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "windows bruise"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Low-Poly Renaissance Mallcore"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "PICO-8"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a blockchain reliquary glowing inside a busted vending machine"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Aria"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-9"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "SIDEQUEST"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 714,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 50,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 93,
+      "display_type": "number"
+    }
+  ]
+}

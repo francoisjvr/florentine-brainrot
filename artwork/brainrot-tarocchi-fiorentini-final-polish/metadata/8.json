@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #8",
+  "description": "Florentine Brainrot #8 is a auction blood marble single-panel relic built around Mona Lisa and Meme Macro Monastery. Tarocchi Fiorentini assigns La Luna, used here as the witness card. The Meme Macro Monastery layout makes the old scandal look newly clickable. The groupchat says no cap and immediately screenshots the evidence. Serial MONA-8 carries codon marker ATGTAAAACGCTCTCATATCTGCC; Gematria marks DELULU at Σ 450.",
+  "image": "0008.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "RIZZ LEDGER"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "auction blood marble"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Meme Macro Monastery"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "GAME BOY DMG"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a hand-drawn liquidity puddle reflecting the Duomo"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "La Luna"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGTAAAACGCTCTCATATCTGCC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MONA-8"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "DELULU"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 450,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 50,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 85,
+      "display_type": "number"
+    }
+  ]
+}

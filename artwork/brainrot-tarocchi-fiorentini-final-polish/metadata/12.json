@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #12",
+  "description": "Florentine Brainrot #12 is a papal terminal single-panel relic built around Medici and Flash Game Guildhall. Tarocchi Fiorentini assigns Sei di Bastoni, used here as the witness card. Medici's codon strip repeats like a clerk trying not to laugh. Cosimo approves the lighting and ignores the crime. Serial MEDI-12 carries codon marker ATGGAAGATATATGTATT; Gematria marks BRAINROT at Σ 582.",
+  "image": "0012.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Medici"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "NO-CAP PROPHECY"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "papal terminal"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Flash Game Guildhall"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "SNES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a mutant laurel wreath made of browser tabs"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Sei di Bastoni"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGGAAGATATATGTATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MEDI-12"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "BRAINROT"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 582,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 75,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 54,
+      "display_type": "number"
+    }
+  ]
+}

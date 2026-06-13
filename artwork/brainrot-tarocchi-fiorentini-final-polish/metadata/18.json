@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #18",
+  "description": "Florentine Brainrot #18 is a auction blood marble single-panel relic built around Mona Lisa and Y2K Auction Pop-Up Hell. Tarocchi Fiorentini assigns Asso di Spade, used here as the witness card. The Asso di Spade motif turns the whole panel into a little court exhibit. Cosimo approves the lighting and ignores the crime. Serial MONA-18 carries codon marker ATGTAAAACGCTCTCATATCTGCC; Gematria marks LOWTAPER at Σ 660.",
+  "image": "0018.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "MORSE CHAPEL"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "auction blood marble"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Y2K Auction Pop-Up Hell"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "SNES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a counterfeit museum audio guide yelling LFG"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Asso di Spade"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGTAAAACGCTCTCATATCTGCC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MONA-18"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "LOWTAPER"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 660,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 60,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 55,
+      "display_type": "number"
+    }
+  ]
+}

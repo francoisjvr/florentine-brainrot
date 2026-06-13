@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #7",
+  "description": "Florentine Brainrot #7 is a crt goblin single-panel relic built around Raphael and Vaporwave Medici Mall. Tarocchi Fiorentini assigns Il Matto, used here as the witness card. Every small note sounds like someone was trying to hide the same problem. The archive files it under miracle-adjacent behaviour. Serial RAPH-7 carries codon marker CGTGCTCCTCACGCCGAACTC; Gematria marks RENTFREE at Σ 546.",
+  "image": "0007.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Raphael"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "RIZZ LEDGER"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "crt goblin"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Vaporwave Medici Mall"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "NES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a low-res dove dropping governance ballots"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Il Matto"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "CGTGCTCCTCACGCCGAACTC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "RAPH-7"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "RENTFREE"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 546,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 74,
+      "display_type": "number"
+    }
+  ]
+}

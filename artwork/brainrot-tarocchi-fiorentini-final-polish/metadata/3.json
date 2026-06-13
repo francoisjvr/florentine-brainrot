@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #3",
+  "description": "Florentine Brainrot #3 is a toxic emerald tabloid single-panel relic built around DaVinci and Bootleg Museum Giftshop. Tarocchi Fiorentini assigns Fuoco, used here as the witness card. The Fuoco motif turns the whole panel into a little court exhibit. The small evidence marks become witnesses, not gimmicks. Serial DAVI-3 carries codon marker GATGCTGTAATAAACTGTATT; Gematria marks CODEX at Σ 306.",
+  "image": "0003.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "DaVinci"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "MORSE CHAPEL"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "toxic emerald tabloid"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Bootleg Museum Giftshop"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "PICO-8"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a hand-drawn liquidity puddle reflecting the Duomo"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Fuoco"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATGCTGTAATAAACTGTATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "DAVI-3"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "CODEX"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 306,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 94,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 100,
+      "display_type": "number"
+    }
+  ]
+}

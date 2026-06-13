@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #24",
+  "description": "Florentine Brainrot #24 is a blue screen reliquary single-panel relic built around Botticelli and Printer-Jam Illuminated Manuscript. Tarocchi Fiorentini assigns Acqua, used here as the witness card. The Printer-Jam Illuminated Manuscript layout makes the old scandal look newly clickable. The small evidence marks become witnesses, not gimmicks. Serial BOTT-24 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks OHIO at Σ 282.",
+  "image": "0024.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "ITALIAN BRAINROT VISITATION"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "blue screen reliquary"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Printer-Jam Illuminated Manuscript"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "SNES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a floor-price crown made of unsold listing cards"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Acqua"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-24"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "OHIO"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 282,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 67,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 92,
+      "display_type": "number"
+    }
+  ]
+}

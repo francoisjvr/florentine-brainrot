@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #14",
+  "description": "Florentine Brainrot #14 is a toxic emerald tabloid single-panel relic built around Raphael and Doomscroll Cathedral Noir. Tarocchi Fiorentini assigns Capricorno, used here as the witness card. The Doomscroll Cathedral Noir layout makes the old scandal look newly clickable. The collector gets a joke, but the joke has a ledger. Serial RAPH-14 carries codon marker CGTGCTCCTCACGCCGAACTC; Gematria marks LORE at Σ 300.",
+  "image": "0014.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Raphael"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "CIPHER GOBLIN"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "toxic emerald tabloid"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Doomscroll Cathedral Noir"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "GAME BOY DMG"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a pixelated espresso cup that steams private keys"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Capricorno"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "CGTGCTCCTCACGCCGAACTC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "RAPH-14"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "LORE"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 300,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 55,
+      "display_type": "number"
+    }
+  ]
+}

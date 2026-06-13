@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #15",
+  "description": "Florentine Brainrot #15 is a blue screen reliquary single-panel relic built around DaVinci and Synthwave Fresco Laundromat. Tarocchi Fiorentini assigns Sei di Spade, used here as the witness card. DaVinci's codon strip repeats like a clerk trying not to laugh. The caption has to tell the truth because the plaque cannot fit all the gossip. Serial DAVI-15 carries codon marker GATGCTGTAATAAACTGTATT; Gematria marks BASED at Σ 186.",
+  "image": "0015.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "DaVinci"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "GEMATRIA TRIAL"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "blue screen reliquary"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Synthwave Fresco Laundromat"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "PICO-8"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a fake papal bull written as a Discord moderation warning"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Sei di Spade"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATGCTGTAATAAACTGTATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "DAVI-15"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "BASED"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 186,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 56,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 56,
+      "display_type": "number"
+    }
+  ]
+}

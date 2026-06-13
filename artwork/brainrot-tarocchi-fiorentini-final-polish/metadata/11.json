@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #11",
+  "description": "Florentine Brainrot #11 is a toxic emerald tabloid single-panel relic built around Botticelli and Windows 95 Treasury Panic. Tarocchi Fiorentini assigns Asso di Denari, used here as the witness card. Botticelli left a receipt where the Burn Address Pilgrimage should have been. The groupchat says no cap and immediately screenshots the evidence. Serial BOTT-11 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks SIGMA at Σ 294.",
+  "image": "0011.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "WHAT THE SIGMA"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "toxic emerald tabloid"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Windows 95 Treasury Panic"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "ARCADE"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a cartoon oracle vending machine dispensing bad alpha"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Asso di Denari"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-11"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "SIGMA"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 294,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 60,
+      "display_type": "number"
+    }
+  ]
+}

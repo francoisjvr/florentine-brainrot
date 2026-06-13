@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #20",
+  "description": "Florentine Brainrot #20 is a glitch candy rot single-panel relic built around Michelangelo and Degen Forum Relic Board. Tarocchi Fiorentini assigns Due di Coppe, used here as the witness card. The Due di Coppe omen matches a stain in the museum security office after midnight. The guild refuses to explain why the halo has admin rights. Serial MICH-20 carries codon marker ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA; Gematria marks DUOMO at Σ 408.",
+  "image": "0020.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Michelangelo"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TRAIT DISTORTION / OHIO"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "glitch candy rot"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Degen Forum Relic Board"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "GAME BOY DMG"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a low-res dove dropping governance ballots"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Due di Coppe"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGATATGTCACGAACTCGCTAACGGAGAGCTATAA"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MICH-20"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "DUOMO"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 408,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 90,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 75,
+      "display_type": "number"
+    }
+  ]
+}

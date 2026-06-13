@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #19",
+  "description": "Florentine Brainrot #19 is a meme macro primary single-panel relic built around Botticelli and Forum Signature Baroque. Tarocchi Fiorentini assigns Ruota della Fortuna, used here as the witness card. Every small note sounds like someone was trying to hide the same problem. The fresco keeps receipts better than the family does. Serial BOTT-19 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks RELIC at Σ 282.",
+  "image": "0019.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "NPC DOCENT LOOP"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "meme macro primary"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Forum Signature Baroque"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "NES"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a pop-up ad promising immortality for 0.08 ETH"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Ruota della Fortuna"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-19"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "RELIC"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 282,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 73,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 65,
+      "display_type": "number"
+    }
+  ]
+}

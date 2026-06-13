@@ -1,0 +1,66 @@
+{
+  "name": "FLORENTINE BRAINROT #17",
+  "description": "Florentine Brainrot #17 is a auction blood marble single-panel relic built around Botticelli and CRT Goblin Ledger. Tarocchi Fiorentini assigns Le Trombe, used here as the witness card. Botticelli keeps showing up in the margin whenever a meme-caption escrow for delulu patrons refreshes. The fresco keeps receipts better than the family does. Serial BOTT-17 carries codon marker GATTAAACTACCATATGTGAACTCCTAATT; Gematria marks DUOMO at Σ 408.",
+  "image": "0017.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Botticelli"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "SIGMA CHAPEL"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "auction blood marble"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "CRT Goblin Ledger"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "ARCADE"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a cartoon oracle vending machine dispensing bad alpha"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Le Trombe"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "GATTAAACTACCATATGTGAACTCCTAATT"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "BOTT-17"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "DUOMO"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 408,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Oracle",
+      "value": "Visible"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 70,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 86,
+      "display_type": "number"
+    }
+  ]
+}

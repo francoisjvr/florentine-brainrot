@@ -1,0 +1,62 @@
+{
+  "name": "FLORENTINE BRAINROT #2",
+  "description": "Florentine Brainrot #2 is a crt goblin single-panel relic built around Mona Lisa and Forum Signature Baroque. Tarocchi Fiorentini assigns Sette di Denari, used here as the witness card. The Forum Signature Baroque layout makes the old scandal look newly clickable. The caption has to tell the truth because the plaque cannot fit all the gossip. Serial MONA-2 carries codon marker ATGTAAAACGCTCTCATATCTGCC; Gematria marks DELULU at Σ 450.",
+  "image": "0002.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "CRYPTO ROAST / OHIO"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "crt goblin"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Forum Signature Baroque"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "GAME BOY DMG"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a floor-price crown made of unsold listing cards"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Sette di Denari"
+    },
+    {
+      "trait_type": "Marker",
+      "value": "ATGTAAAACGCTCTCATATCTGCC"
+    },
+    {
+      "trait_type": "Serial",
+      "value": "MONA-2"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "DELULU"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 450,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 45,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Brainrot Index",
+      "value": 94,
+      "display_type": "number"
+    }
+  ]
+}
