@@ -1,10 +1,10 @@
-# Florentine Brainrot Burn Agent
+# Florentine Groteschi Burn Agent
 
-This folder contains the operational scaffold for a dedicated Florentine Brainrot burn agent.
+This folder contains the operational scaffold for a dedicated Florentine Groteschi burn agent.
 
 The agent is deliberately narrow:
 
-- It can call `agentBurnFromCollection(uint256 tokenId)` on the Florentine Brainrot contract through a Privy server wallet.
+- It can call `agentBurnFromCollection(uint256 tokenId)` on the Florentine Groteschi contract through a Privy server wallet.
 - It announces intended and completed burns on X/Twitter.
 - It logs every action to JSONL.
 - It does **not** implement the floor-price rule yet. Burn decisions are explicit queue/CLI inputs until the collection has a finalized policy.
@@ -22,7 +22,7 @@ Why VPS:
 
 ## Safety model
 
-1. Privy policy restricts the wallet to zero-ETH transactions targeting the configured Florentine Brainrot contract on the configured chain.
+1. Privy policy restricts the wallet to zero-ETH transactions targeting the configured Florentine Groteschi contract on the configured chain.
 2. The contract owner must explicitly make the Privy wallet an admin with `setAdmin(walletAddress, true)` before real burns can run.
 3. The script checks `isAdmin(walletAddress)` before a non-dry-run burn when an RPC URL is configured.
 4. Dry-run mode is the default unless `BURN_AGENT_DRY_RUN=false` is set.

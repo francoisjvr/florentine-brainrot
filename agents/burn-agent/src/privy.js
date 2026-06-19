@@ -28,7 +28,7 @@ export async function privyRequest(config, method, path, body) {
 
 export async function createBurnPolicy(config) {
   requirePrivySetupCredentials(config);
-  if (!config.contractAddress) throw new Error("BRAINROT_CONTRACT_ADDRESS is required to create a policy");
+  if (!config.contractAddress) throw new Error("GROTESCHI_CONTRACT_ADDRESS is required to create a policy");
   return privyRequest(config, "POST", "/v1/policies", {
     version: "1.0",
     name: `${config.collectionName} burn-agent policy`,
@@ -58,7 +58,7 @@ export async function createPrivyWallet(config, policyId) {
 
 export async function sendAgentBurn(config, tokenId) {
   requirePrivy(config);
-  if (!config.contractAddress) throw new Error("BRAINROT_CONTRACT_ADDRESS is required");
+  if (!config.contractAddress) throw new Error("GROTESCHI_CONTRACT_ADDRESS is required");
   const payload = {
     method: "eth_sendTransaction",
     caip2: config.caip2,

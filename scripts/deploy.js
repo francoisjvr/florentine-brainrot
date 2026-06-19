@@ -28,17 +28,17 @@ async function main() {
   const royaltyBps = BigInt(process.env.ROYALTY_BPS || "250");
   const allowedSeaDrop = parseAddressList("ALLOWED_SEADROP", [DEFAULT_SEADROP]);
 
-  console.log(`Deploying Florentine Brainrot to ${network.name} (${network.config.chainId ?? "unknown chain"})`);
+  console.log(`Deploying Florentine Groteschi to ${network.name} (${network.config.chainId ?? "unknown chain"})`);
   console.log(`Deployer: ${deployer.address}`);
   console.log(`Owner:    ${owner}`);
   console.log(`Payout:   ${payoutWallet}`);
   console.log(`SeaDrop:  ${allowedSeaDrop.join(", ")}`);
 
-  const FlorentineBrainrot = await ethers.getContractFactory("FlorentineBrainrot");
-  const brainrot = await FlorentineBrainrot.deploy(owner, payoutWallet, royaltyBps, allowedSeaDrop);
-  await brainrot.waitForDeployment();
-  const contractAddress = await brainrot.getAddress();
-  console.log(`FlorentineBrainrot deployed: ${contractAddress}`);
+  const FlorentineGroteschi = await ethers.getContractFactory("FlorentineGroteschi");
+  const groteschi = await FlorentineGroteschi.deploy(owner, payoutWallet, royaltyBps, allowedSeaDrop);
+  await groteschi.waitForDeployment();
+  const contractAddress = await groteschi.getAddress();
+  console.log(`FlorentineGroteschi deployed: ${contractAddress}`);
 
   const deployment = {
     network: network.name,

@@ -17,8 +17,8 @@ describe("burn agent helpers", function () {
 
   it("keeps burn announcement tweets inside the tweet length limit", function () {
     const reason = "x".repeat(500);
-    expect(buildPreBurnTweet({ collectionName: "Florentine Brainrot", tokenId: 1, reason })).to.have.length.lte(280);
-    expect(buildPostBurnTweet({ collectionName: "Florentine Brainrot", tokenId: 1, reason, txHash: "0x" + "a".repeat(64), chainId: 1 })).to.have.length.lte(280);
+    expect(buildPreBurnTweet({ collectionName: "Florentine Groteschi", tokenId: 1, reason })).to.have.length.lte(280);
+    expect(buildPostBurnTweet({ collectionName: "Florentine Groteschi", tokenId: 1, reason, txHash: "0x" + "a".repeat(64), chainId: 1 })).to.have.length.lte(280);
   });
 
   it("builds an OAuth 1.0a authorization header for Twitter posting", function () {

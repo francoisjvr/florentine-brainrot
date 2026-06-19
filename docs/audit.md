@@ -1,7 +1,7 @@
-# Florentine Brainrot Contract Audit
+# Florentine Groteschi Contract Audit
 
-Date: 2026-06-13
-Scope: `src/FlorentineBrainrot.sol`, vendored SeaDrop interfaces, and `test/FlorentineBrainrot.test.js`.
+Date: 2026-06-19
+Scope: `src/FlorentineGroteschi.sol`, vendored SeaDrop interfaces, and `test/FlorentineGroteschi.test.js`.
 
 ## Summary
 
@@ -11,7 +11,7 @@ The contract preserves the SeaDrop-compatible mint/admin surface from the Normie
 
 ## Verified properties
 
-- Collection name/symbol: `Florentine Brainrot` / `FBRAIN`.
+- Collection name/symbol: `Florentine Groteschi` / `FGROT`.
 - Max supply: `1,401`.
 - Direct `mint()` reverts; minting is routed through `mintSeaDrop` from allowed SeaDrop contracts.
 - ETH receive/fallback reverts.
@@ -31,7 +31,7 @@ The contract preserves the SeaDrop-compatible mint/admin surface from the Normie
 
 `npm test`
 
-- 10 passing tests.
+- 14 passing tests.
 
 `npm run compile`
 

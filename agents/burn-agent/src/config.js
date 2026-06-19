@@ -69,8 +69,8 @@ export function loadConfig(options = {}) {
 
   const chainId = numberFrom(process.env.CHAIN_ID, fileConfig.chainId || 1);
   const contractAddress = normalizeAddress(
-    process.env.BRAINROT_CONTRACT_ADDRESS || fileConfig.contractAddress,
-    "BRAINROT_CONTRACT_ADDRESS",
+    process.env.GROTESCHI_CONTRACT_ADDRESS || fileConfig.contractAddress,
+    "GROTESCHI_CONTRACT_ADDRESS",
     { required: options.requireContract || false }
   );
 
@@ -83,8 +83,8 @@ export function loadConfig(options = {}) {
     caip2: process.env.CAIP2 || fileConfig.caip2 || `eip155:${chainId}`,
     rpcUrl: process.env.RPC_URL || fileConfig.rpcUrl || "",
     contractAddress,
-    collectionName: process.env.COLLECTION_NAME || fileConfig.collectionName || "Florentine Brainrot",
-    collectionSlug: process.env.OPENSEA_COLLECTION_SLUG || fileConfig.collectionSlug || "florentine-brainrot",
+    collectionName: process.env.COLLECTION_NAME || fileConfig.collectionName || "Florentine Groteschi",
+    collectionSlug: process.env.OPENSEA_COLLECTION_SLUG || fileConfig.collectionSlug || "florentine-groteschi",
     dryRun,
     waitForReceipt: boolFrom(process.env.BURN_AGENT_WAIT_FOR_RECEIPT, fileConfig.waitForReceipt ?? true),
     pollSeconds: numberFrom(process.env.BURN_AGENT_POLL_SECONDS, fileConfig.pollSeconds || 60),

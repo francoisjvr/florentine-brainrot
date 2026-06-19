@@ -1,0 +1,586 @@
+{
+  "name": "FLORENTINE GROTESCHI #2",
+  "description": "Florentine Groteschi #2 is a crt goblin single-panel relic built around Mona Lisa and Forum Signature Baroque. Tarocchi Fiorentini assigns Sette di Denari, used here as the witness card. A touch-grass decree from the garden wall gets pulled into a skibidi audio guide under museum headphones, making the panel read like a corrupted receipt for belief, status, and patronage. The caption has to tell the truth because the plaque cannot fit all the gossip. The generated insert, a floor-price crown made of unsold listing cards, acts as the modern clue; Gematria marks DELULU at Σ 450.",
+  "image": "0002.png",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "Mona Lisa"
+    },
+    {
+      "trait_type": "Panel Role",
+      "value": "TRAIT GOBLIN"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "crt goblin"
+    },
+    {
+      "trait_type": "Style Tribe",
+      "value": "Forum Signature Baroque"
+    },
+    {
+      "trait_type": "Insert Mode",
+      "value": "GAME BOY DMG"
+    },
+    {
+      "trait_type": "Generated Insert",
+      "value": "a floor-price crown made of unsold listing cards"
+    },
+    {
+      "trait_type": "Tarocchi Fiorentini",
+      "value": "Sette di Denari"
+    },
+    {
+      "trait_type": "Gematria Word",
+      "value": "DELULU"
+    },
+    {
+      "trait_type": "Gematria Sum",
+      "value": 450,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Chaos Dial",
+      "value": 45,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Groteschi Index",
+      "value": 64,
+      "display_type": "number"
+    }
+  ],
+  "florentine_groteschi": {
+    "schema": "florentine_groteschi.collector_data.v2",
+    "collector_note": "Custom top-level lore data: not an OpenSea trait list, but intentionally readable in the raw token JSON.",
+    "hidden_traits": {
+      "chess_piece": {
+        "name": "Rook",
+        "italian_name": "Torre",
+        "motif": "rook",
+        "strength_value": 5,
+        "strength_rank": 3,
+        "rarity": {
+          "tier": "Rare",
+          "target_count": 168,
+          "supply": 1401,
+          "percentage": 11.9914,
+          "strength_value": 5,
+          "strength_rank": 3,
+          "ranking_rule": "Higher chess strength/rank is intentionally rarer: Pawn common, Knight/Bishop uncommon, Rook rare, Queen epic, King legendary."
+        },
+        "board_position": {
+          "square": "g7",
+          "file": "g",
+          "rank": 7,
+          "side": "black",
+          "coordinate_index": 54,
+          "notation": "black rook on g7",
+          "coordinate_system": "algebraic chessboard coordinates, White perspective",
+          "position_rule": "Deterministic per-token board square reserved for future game/use mechanics; independent of visible glyph placement."
+        },
+        "allocation_rule": "Weighted deterministic shuffled chess allocation by piece strength: {'Pawn': 560, 'Knight': 280, 'Bishop': 280, 'Rook': 168, 'Queen': 84, 'King': 29}",
+        "metadata_visibility": "Hidden from OpenSea attributes; stored only in florentine_groteschi.hidden_traits.",
+        "visual_rule": "A small unlabeled foreground chess glyph shows the chess-piece graphic with the piece name encoded underneath; that visible code is intentionally not serialized in metadata."
+      }
+    },
+    "visible_text": {
+      "title": "FLORENTINE GROTESCHI #2",
+      "main_caption": "Even the angels mute the sponsored thread. The old route runs a touch-grass decree from the garden wall into a skibidi audio guide under museum headphones; the caption has to tell the truth because the plaque cannot fit all the gossip.",
+      "history_now_bridge": "LAURENZIANA INCIDENT: a touch-grass decree from the garden wall gets pulled into a skibidi audio guide under museum headphones. Sette di Denari reads the jump as patronage theater: who certifies the relic, who pays for belief, and who gets the receipt. The caption has to tell the truth because the plaque cannot fit all the gossip.",
+      "period_looksmaxx_plaque": "MONA LISA SFUMATOMAXX MIRROR NOTE: NPC-loop the serene expression under zodiac-risk committee lighting. The apprentice deletes his sketch, approved by the jealous cousin.",
+      "qr_payload_if_drawn": null,
+      "bottom_provenance_strip": [
+        "FLORENTINE GROTESCHI #2 // MONALISA // ATGTAAAACGCTCTCATATCTGCC // MONA-2",
+        "MINCHIATE 97×14+43 // SETTE DI DENARI // PAL crt goblin // MORSE RELIC"
+      ],
+      "tarocchi_card_body": "Sette di Denari",
+      "generated_insert_label": "a floor-price crown made of unsold listing cards",
+      "background_chatter_samples": [
+        "laurenziana incident: Sette di Denari witness line",
+        "Sette di Denari note: Mona Lisa keeps the receipt",
+        "notary thread: relic, card, verdict",
+        "witness reply: Mona Lisa is the custody problem",
+        "card margin: Sette di Denari keeps the room honest",
+        "archive aside: evidence filed under Mona Lisa",
+        "small correction: the joke still needs a ledger",
+        "guild whisper: same case, smaller handwriting",
+        "desk note: old stain, new interface",
+        "shelfmark: never neutral",
+        "caption draft: witness first, punchline second",
+        "reply chain: source, card, caption, verdict",
+        "case clerk: do not mix systems without a witness",
+        "patron chat: the receipt matches Mona Lisa",
+        "margin arrow: follow Sette di Denari back to the relic",
+        "quiet note: laurenziana incident stays open",
+        "FORUM SIGNATURE: did the patron just subtweet the halo?",
+        "workshop chat // MONA LISA is pretending this was planned"
+      ]
+    },
+    "artwork_breakdown": {
+      "source_base": "Mona Lisa",
+      "panel_role": "TRAIT GOBLIN",
+      "palette": "crt goblin",
+      "style_tribe": "Forum Signature Baroque",
+      "insert_mode": "GAME BOY DMG",
+      "generated_insert": "a floor-price crown made of unsold listing cards",
+      "tarocchi_fiorentini": {
+        "deck": "Tarocchi Fiorentini / Minchiate, 97 cards",
+        "italian_name": "Sette di Denari",
+        "translations": {
+          "italian": "Sette di Denari",
+          "english": "Seven of Coins",
+          "spanish": "Siete de Oros",
+          "french": "Sept de Deniers",
+          "german": "Sieben der Münzen",
+          "portuguese": "Sete de Ouros",
+          "chinese_simplified": "钱币七"
+        },
+        "category": "seme",
+        "motif": "coin_pip",
+        "roman": null,
+        "suit": "Denari",
+        "rank": "Sette",
+        "allocation_rule": "14 complete 97-card sets across 1,401 tokens, plus 43 deterministic extras"
+      },
+      "symbolic_layers": {
+        "gematria_word": "DELULU",
+        "gematria_sum": 450,
+        "oracle": "Not drawn on this panel",
+        "chaos_dial": 45,
+        "groteschi_index": 64
+      },
+      "composition_read": "Mona Lisa anchors the historical source. Sette di Denari supplies the witness logic. The floor-price crown made of unsold listing cards acts as the modern meme-object. The crt goblin palette and Forum Signature Baroque styling make the panel read like a corrupted Renaissance case file."
+    },
+    "groteschi_explanation": {
+      "plain_english": "Read plainly: Mona Lisa is treated as evidence in a laurenziana incident. The old-world clue is a touch-grass decree from the garden wall; the modern-world echo is a skibidi audio guide under museum headphones. The joke is that patronage, holy paperwork, and marketplace verification are all status systems asking who gets believed.",
+      "read_between_the_lines": "The Sette di Denari card is not decorative; it tells you how to read the room. The old clue and the modern clue compete as evidence, so the panel becomes a custody argument about belief, status, and receipts. The caption has to tell the truth because the plaque cannot fit all the gossip. The slang turns sacred authority into aura, patronage into clout economics, and marginalia into groupchat evidence.",
+      "slang_for_normal_plebs": [
+        {
+          "term": "ate",
+          "translation_for_normal_plebs": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post"
+        },
+        {
+          "term": "npc",
+          "translation_for_normal_plebs": "background-character energy; a docent, patron, or scribe trapped in loop behavior"
+        },
+        {
+          "term": "skibidi",
+          "translation_for_normal_plebs": "pure absurdist groteschi signal; a choir, relic, or interface acting possessed by meme culture"
+        }
+      ]
+    },
+    "case_file": {
+      "case": "LAURENZIANA INCIDENT",
+      "old_node": "a touch-grass decree from the garden wall",
+      "modern_node": "a skibidi audio guide under museum headphones",
+      "evidence": "the old clue and the modern echo both try to certify belief, status, and patronage",
+      "verdict": "the caption has to tell the truth because the plaque cannot fit all the gossip",
+      "reply": "desk note: follow the red string before vespers"
+    },
+    "deck_math": {
+      "deck": "Tarocchi Fiorentini / Minchiate",
+      "deck_size": 97,
+      "italian_name": "Sette di Denari",
+      "translations": {
+        "italian": "Sette di Denari",
+        "english": "Seven of Coins",
+        "spanish": "Siete de Oros",
+        "french": "Sept de Deniers",
+        "german": "Sieben der Münzen",
+        "portuguese": "Sete de Ouros",
+        "chinese_simplified": "钱币七"
+      },
+      "card_index_in_reference_deck_1_based": 48,
+      "allocation_position_0_based": 60,
+      "allocation_spell": "((token_id - 1) * 37 + 23) mod 97 after seed 1492 shuffle",
+      "complete_sets_across_collection": 14,
+      "extra_cards_after_full_sets": 43,
+      "token_set_pass_1_based": 1,
+      "token_is_in_extra_tail": false,
+      "this_card_total_appearances": 15,
+      "same_card_token_ids": [
+        2,
+        99,
+        196,
+        293,
+        390,
+        487,
+        584,
+        681,
+        778,
+        875,
+        972,
+        1069,
+        1166,
+        1263,
+        1360
+      ]
+    },
+    "medici_ledger": {
+      "folio": "MEDICI-2/MONALISA-SETTEDIDEN",
+      "debit": "one QR oracle, paid in candle smoke",
+      "credit": "three units of saintly plausible deniability",
+      "witness": "Sette di Denari",
+      "insert_evidence": "a floor-price crown made of unsold listing cards",
+      "notary_note": "Sette di Denari makes the old clue read like a receipt: a touch-grass decree from the garden wall has to answer to a skibidi audio guide under museum headphones. The patron paid in aura, not florins.",
+      "balance": "504 florins, unsettled since 1492"
+    },
+    "codon_lineage": {
+      "visible_marker": "ATGTAAAACGCTCTCATATCTGCC",
+      "visible_serial": "MONA-2",
+      "triplets": [
+        "ATG",
+        "TAA",
+        "AAC",
+        "GCT",
+        "CTC",
+        "ATA",
+        "TCT",
+        "GCC"
+      ],
+      "amino_acid_trace": [
+        "M",
+        "O",
+        "N",
+        "A",
+        "L",
+        "I",
+        "S",
+        "A"
+      ],
+      "father_strand": {
+        "name": "MONALISA-PATER",
+        "dna": "ATGTAAAACGCTCTAAAATCTGCC",
+        "note": "deterministic mutated paternal archive strand"
+      },
+      "mother_strand": {
+        "name": "CRTGOBLIN-MATER",
+        "dna": "TACATTTTGCGAGAGTATAGACGG",
+        "note": "Watson-Crick complement of the visible marker"
+      },
+      "ancestors": [
+        {
+          "generation": -3,
+          "name": "Laurenziana dust sample",
+          "dna": "ATTTAAGAGGCTCTCATATATGCC"
+        },
+        {
+          "generation": -2,
+          "name": "Medici vellum sample",
+          "dna": "GAAATATTGCGATAGTATAGACGG"
+        },
+        {
+          "generation": -1,
+          "name": "auction-house witness swab",
+          "dna": "ATGAAAAACGCTCTCATATCTGCC"
+        }
+      ],
+      "children": [
+        {
+          "name": "MONA-2-FIGLIO-A",
+          "dna": "ATGTAAAACGCTGAGTATAGACGG",
+          "inheritance": "front half from visible marker, back half from mother complement"
+        },
+        {
+          "name": "MONA-2-FIGLIO-B",
+          "dna": "ATGTAAAACGCTCTCATATCTGCC",
+          "inheritance": "paternal mutation grafted onto the visible marker"
+        }
+      ],
+      "hidden_solution": {
+        "decoded_base": "Mona Lisa",
+        "method": "Split the visible marker into DNA triplets, translate each triplet through the genetic-code table, then read the amino-acid letters as the source Base name. Non-standard letters use documented stop/nearest triplet placeholders."
+      }
+    },
+    "hidden_acrostic": {
+      "method": "Read the first character of each acrostic line; slashes are spaces.",
+      "decoded_solution": "MONALISA SETTEDIDEN",
+      "lines": [
+        "Medici smells faintly of candle smoke and server dust.",
+        "Oracle keeps the laurenziana incident from looking innocent.",
+        "Notary keeps the laurenziana incident from looking innocent.",
+        "Archive turns an old clue into a modern receipt check.",
+        "Laurenziana left a checksum where a halo should be.",
+        "Ink pretends to be decoration but behaves like testimony.",
+        "Scribe turns an old clue into a modern receipt check.",
+        "Archive left a checksum where a halo should be.",
+        "//",
+        "Scribe keeps the laurenziana incident from looking innocent.",
+        "Evidence was copied into the margin before the patron noticed.",
+        "Tarocchi keeps the laurenziana incident from looking innocent.",
+        "Tarocchi pretends to be decoration but behaves like testimony.",
+        "Evidence left a checksum where a halo should be.",
+        "Duomo turns an old clue into a modern receipt check.",
+        "Ink was copied into the margin before the patron noticed.",
+        "Duomo smells faintly of candle smoke and server dust.",
+        "Evidence smells faintly of candle smoke and server dust.",
+        "Notary left a checksum where a halo should be."
+      ]
+    },
+    "palimpsest_layers": [
+      {
+        "layer": 0,
+        "name": "paper tooth",
+        "meaning": "3072px manuscript substrate: the fake archive surface that catches all later crimes"
+      },
+      {
+        "layer": 1,
+        "name": "Medici grimoire underlay",
+        "meaning": "Ficino/Laurenziana/learned-magic diagrams pretending to be respectable scholarship"
+      },
+      {
+        "layer": 2,
+        "name": "source relic",
+        "meaning": "Mona Lisa anchors the old-world witness object"
+      },
+      {
+        "layer": 3,
+        "name": "Tarocchi witness",
+        "meaning": "Sette di Denari decides how the panel testifies"
+      },
+      {
+        "layer": 4,
+        "name": "market corruption layer",
+        "meaning": "a skibidi audio guide under museum headphones leaks into Renaissance paperwork"
+      },
+      {
+        "layer": 5,
+        "name": "groteschi translation layer",
+        "meaning": "Forum Signature Baroque slang turns patronage into feed-native evidence"
+      }
+    ],
+    "tarocchi_reading": {
+      "spread": "Witness / Scandal / Exit Route",
+      "witness_card": {
+        "italian": "Sette di Denari",
+        "translations": {
+          "italian": "Sette di Denari",
+          "english": "Seven of Coins",
+          "spanish": "Siete de Oros",
+          "french": "Sept de Deniers",
+          "german": "Sieben der Münzen",
+          "portuguese": "Sete de Ouros",
+          "chinese_simplified": "钱币七"
+        }
+      },
+      "shadow_card": {
+        "italian": "Due di Spade",
+        "translations": {
+          "italian": "Due di Spade",
+          "english": "Two of Swords",
+          "spanish": "Dos de Espadas",
+          "french": "Deux de Épées",
+          "german": "Zwei der Schwerter",
+          "portuguese": "Dois de Espadas",
+          "chinese_simplified": "宝剑二"
+        }
+      },
+      "remedy_card": {
+        "italian": "Terra",
+        "translations": {
+          "italian": "Terra",
+          "english": "Earth",
+          "spanish": "Tierra",
+          "french": "Terre",
+          "german": "Erde",
+          "portuguese": "Terra",
+          "chinese_simplified": "土"
+        }
+      },
+      "reading": "Sette di Denari names Mona Lisa as the witness; Due di Spade shows where the patronage scandal hides; Terra is the exit route after sacred receipts start behaving like marketplace proof."
+    },
+    "laurenziana_shelfmark": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "PLUT.3.15-GROTESCHI-2",
+      "catalogue_title": "Monalisa under Sette di Denari",
+      "condition": "green wax transfer, QR shadow, minor halo burn",
+      "marginal_warning": "Do not let the QR code face the moon.",
+      "palette_binding": "crt goblin"
+    },
+    "qr_plaintext_archive": {
+      "drawn": false,
+      "absence_note": "No QR appeared on this token. Sette di Denari refused to scan and left the witness work to the margins."
+    },
+    "image_region_map": {
+      "coordinate_system": "3072x3072",
+      "logical_canvas_before_upscale": "1800x1800",
+      "note": "Boxes are exported pixel coordinates. Null boxes indicate an optional element not drawn or not available from a skipped render.",
+      "regions": [
+        {
+          "name": "title_hud",
+          "box": [
+            133,
+            150,
+            1434,
+            307
+          ],
+          "contains": "token title and top-left HUD text"
+        },
+        {
+          "name": "trait_hud",
+          "box": [
+            1775,
+            150,
+            2939,
+            307
+          ],
+          "contains": "top-right palette/style HUD text"
+        },
+        {
+          "name": "source_relic",
+          "box": [
+            1161,
+            700,
+            2324,
+            1864
+          ],
+          "contains": "Florentine source insert / historical witness"
+        },
+        {
+          "name": "qr_oracle",
+          "box": null,
+          "contains": "not drawn on even-numbered tokens"
+        },
+        {
+          "name": "tarocchi_card",
+          "box": [
+            140,
+            666,
+            628,
+            1304
+          ],
+          "contains": "custom Tarocchi Fiorentini mini-card"
+        },
+        {
+          "name": "chess_piece",
+          "box": [
+            188,
+            1724,
+            396,
+            1973
+          ],
+          "contains": "foreground chess sigil with the hidden chess piece name encoded below it"
+        },
+        {
+          "name": "history_now_bridge",
+          "box": [
+            870,
+            2079,
+            2864,
+            2331
+          ],
+          "contains": "HISTORY→NOW bridge plaque"
+        },
+        {
+          "name": "main_caption",
+          "box": [
+            171,
+            2454,
+            2287,
+            2898
+          ],
+          "contains": "primary narrative caption"
+        },
+        {
+          "name": "bottom_provenance_strip",
+          "box": [
+            0,
+            2922,
+            3072,
+            3072
+          ],
+          "contains": "Base, visible DNA marker, serial, palette provenance strip"
+        }
+      ]
+    },
+    "collector_warnings": [
+      "Do not let the codon marker breed near the provenance strip.",
+      "Do not cite the notary after midnight.",
+      "This file has already been read by one Medici accountant.",
+      "Sette di Denari is a witness, not a decorative rectangle.",
+      "If the Tarocchi card and QR code disagree, trust the card."
+    ],
+    "glossary_of_crimes": {
+      "receipt theology": "when proof of payment starts acting like a relic",
+      "patronage laundering": "old-money status conversion through art, saints, and paperwork",
+      "aura arbitrage": "buying clout low, reselling it as holiness",
+      "codon custody": "pretending the provenance strip is a tiny DNA court case",
+      "oracle slippage": "the moment a QR payload stops behaving like utility and starts testifying",
+      "notary-core": "bureaucracy with candle smoke and main-character syndrome",
+      "reliquary wallet": "a crypto storage object treated like a saint bone",
+      "ate": "did it perfectly; in this collection a fresco, saint, or relic can 'eat' like a viral post",
+      "npc": "background-character energy; a docent, patron, or scribe trapped in loop behavior",
+      "skibidi": "pure absurdist groteschi signal; a choir, relic, or interface acting possessed by meme culture"
+    },
+    "set_neighbors": {
+      "same_tarocchi_card": [
+        2,
+        99,
+        196,
+        293,
+        390,
+        487,
+        584,
+        681,
+        778,
+        875,
+        972,
+        1069,
+        1166,
+        1263,
+        1360
+      ],
+      "nearby_same_card": [
+        99,
+        196
+      ],
+      "previous_token": 1,
+      "next_token": 3,
+      "mirror_token": 1400,
+      "same_set_pass_neighbors": [
+        39,
+        99
+      ],
+      "note": "The collection is a graph disguised as 1,401 files; same_tarocchi_card exposes the 97-card/14-set spine."
+    },
+    "latin_marginalia": {
+      "phrase": "Medices computat, angelus recusat.",
+      "rough_translation": "The Medici accountant counts; the angel refuses.",
+      "token_gloss": "Bad monastery Latin for Mona Lisa under Sette di Denari; spiritually accurate, academically sus."
+    },
+    "terminal_relic": {
+      "command": "decode --tarocchi settedidenari --base monalisa --token 2",
+      "stdout": [
+        "loading wet_fresco_incident...",
+        "witness card: Sette di Denari",
+        "base decoded from codons: Mona Lisa",
+        "case file: LAURENZIANA INCIDENT",
+        "verdict: evidence marks are not gimmicks"
+      ],
+      "exit_code": 1492
+    },
+    "render_context": {
+      "source_token_id": 2,
+      "source_panel_index": 2,
+      "style_capsule_id": "2D-2-51c41871",
+      "logical_canvas_size": [
+        1800,
+        1800
+      ],
+      "export_image_size": [
+        3072,
+        3072
+      ],
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    },
+    "provenance_hashes": {
+      "image_sha256": "1698b3bf942647f7e9be48fe690b786870da72cbb29b7884649815a2b659cbab",
+      "metadata_without_provenance_hashes_sha256": "7752ebfea7619c74d0fed65e2561fb9e4d0b9d900955a2bdaeaa7bba645e3bd5",
+      "render_family": "groteschi-tarocchi-fiorentini-final-polish",
+      "resolution": "3072x3072",
+      "resolution_basis": "3072px = six Medici palle × 512px each"
+    }
+  }
+}

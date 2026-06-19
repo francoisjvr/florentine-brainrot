@@ -3,14 +3,14 @@ import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { Contract, JsonRpcProvider } from "ethers";
-import { BRAINROT_ABI, encodeAgentBurn } from "./abi.js";
+import { GROTESCHI_ABI, encodeAgentBurn } from "./abi.js";
 import { appendAuditLog } from "./log.js";
 import { loadConfig, parseArgs, requirePrivy } from "./config.js";
 import { sendAgentBurn } from "./privy.js";
 import { buildPostBurnTweet, buildPreBurnTweet, postTweet } from "./twitter.js";
 
 function usage() {
-  return `Florentine Brainrot burn agent
+  return `Florentine Groteschi burn agent
 
 Commands:
   burn --token-id <id> [--reason <text>] [--dry-run|--real]
@@ -29,7 +29,7 @@ function parseTokenId(value) {
 async function getContract(config) {
   if (!config.rpcUrl) return null;
   const provider = new JsonRpcProvider(config.rpcUrl);
-  return new Contract(config.contractAddress, BRAINROT_ABI, provider);
+  return new Contract(config.contractAddress, GROTESCHI_ABI, provider);
 }
 
 async function validateOnchain(config, tokenId) {
@@ -132,7 +132,7 @@ async function main() {
     return;
   }
   if (args.command === "daemon") {
-    console.log(`Florentine Brainrot burn agent started. dryRun=${config.dryRun} queue=${config.queueFile}`);
+    console.log(`Florentine Groteschi burn agent started. dryRun=${config.dryRun} queue=${config.queueFile}`);
     do {
       const result = await processQueue(config);
       if (args.once) {

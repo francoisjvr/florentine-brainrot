@@ -1,11 +1,11 @@
 [Unit]
-Description=Florentine Brainrot Privy burn agent
+Description=Florentine Groteschi Privy burn agent
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/opt/florentine-brainrot
+WorkingDirectory=/opt/florentine-groteschi
 Environment=NODE_ENV=production
 ExecStart=/usr/bin/npm run agent:daemon
 Restart=always
@@ -18,7 +18,7 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=full
 ProtectHome=true
-ReadWritePaths=/opt/florentine-brainrot/agents/burn-agent/logs /opt/florentine-brainrot/agents/burn-agent/state /opt/florentine-brainrot/agents/burn-agent/queue.json
+ReadWritePaths=/opt/florentine-groteschi/agents/burn-agent/logs /opt/florentine-groteschi/agents/burn-agent/state /opt/florentine-groteschi/agents/burn-agent/queue.json
 
 [Install]
 WantedBy=multi-user.target

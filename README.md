@@ -1,26 +1,26 @@
-# Florentine Brainrot
+# Florentine Groteschi
 
-OpenSea SeaDrop-compatible ERC721 contract repo for **Florentine Brainrot**.
+OpenSea SeaDrop-compatible ERC721 contract repo for **Florentine Groteschi**.
 
 ## What is included
 
-- `src/FlorentineBrainrot.sol` — collection contract based on the SeaDrop-compatible `normie-pets/src` contract surface.
+- `src/FlorentineGroteschi.sol` — collection contract based on the SeaDrop-compatible `normie-pets/src` contract surface.
 - `src/seadrop/` — vendored minimal OpenSea SeaDrop interfaces/structs used by the contract.
 - Agent/admin burn feature ported from `morph-mint/src/AiShapu.sol`:
   - `setAdmin(address,bool)`
   - `agentBurnFromCollection(uint256)`
   - `getAgentBurnedCount()`
   - `agentBurnedCount`, `totalBurned`, live `totalSupply()` accounting
-- `artwork/brainrot-tarocchi-fiorentini-final-polish/` — current 24-panel Florentine Brainrot final-polish preview batch, metadata, contact sheet, and render report.
-- `artwork/florentine-brainrot-final-polish-preview.zip` — zipped copy of the same current preview batch.
-- `test/FlorentineBrainrot.test.js` — SeaDrop compatibility, URI, supply, and burn tests.
+- `artwork/florentine-groteschi-final-polish/` — current 24-panel Florentine Groteschi final-polish preview batch, metadata, and render report.
+- `artwork/florentine-groteschi-final-polish-preview.zip` — zipped copy of the same current preview batch.
+- `test/FlorentineGroteschi.test.js` — SeaDrop compatibility, URI, supply, and burn tests.
 - `docs/audit.md` — audit notes for the current contract.
 - `agents/burn-agent/` — Privy-wallet burn agent scaffold with dry-run, queue daemon, audit logs, and X/Twitter burn announcements.
 
 ## Contract defaults
 
-- Name: `Florentine Brainrot`
-- Symbol: `FBRAIN`
+- Name: `Florentine Groteschi`
+- Symbol: `FGROT`
 - Max supply: `1,401`
 - Mint path: SeaDrop / OpenSea-compatible `mintSeaDrop`
 - Direct public `mint()` intentionally reverts so SeaDrop controls public mint settings.

@@ -1,7 +1,7 @@
 {
-  "name": "florentine-brainrot",
+  "name": "florentine-groteschi",
   "version": "0.1.0",
-  "description": "Florentine Brainrot — OpenSea SeaDrop-compatible ERC721 contract with agent burn support and collection artwork preview assets.",
+  "description": "Florentine Groteschi — OpenSea SeaDrop-compatible ERC721 contract with agent burn support and collection artwork preview assets.",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -20,7 +20,7 @@
     "erc721",
     "opensea",
     "seadrop",
-    "florentine-brainrot"
+    "florentine-groteschi"
   ],
   "author": "",
   "license": "CC0-1.0",
